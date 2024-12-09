@@ -1,0 +1,269 @@
+
+
+@media only screen and (min-width:1920px) {
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 16px;
+    }
+    .navbar-brand img {
+        max-width: 140px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0 5px;
+    }
+    
+    .map .container {
+        top: 80%;
+        transform: translateY(-80%);
+    }
+   .swiper-button-prev {
+        right: 12%;
+    }
+    .our-insurance h3 {
+        font-size: 22px;
+    }
+    .testimonials-box{
+        padding: 20px;
+        bottom: -35%;
+    }
+    .testimonials-box h4 {
+        font-size: 20px;
+    }
+    .testimonials-box a {
+        font-size: 16px;
+        width: 70px;
+        height: 70px;
+    }
+}
+@media only screen and (max-width:991px){
+    h2 {
+        font-size: 30px;
+    }
+
+     /* header end */
+    .navbar-brand img {
+        max-width: unset;
+        width: 145px;
+    }
+    .navbar-toggler, .navbar-toggler:focus{
+        border: none;
+        box-shadow: none;
+        outline: none;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0;
+        padding: 15px;
+        border-bottom: 1px solid rgba(0 0 0 / 50%);
+        display: block;
+        position: relative;
+    }
+    .navbar-collapse{
+        position: absolute;
+        background: #fff;
+        left: -15px;
+        right: -15px;
+        top: 75px;
+    }
+    .nav-item{
+        display: block;
+    }
+    .dropdown-item{
+        width: 100%;
+        background: #f1f1f1;
+    }
+    .dropdown-toggle::after{
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu{
+        margin: 0;
+    }
+    
+    .burger {
+        width: 45px;
+        height: 45px;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        border-radius: 50%;
+        z-index: 99999;
+        background: #61CE70
+    }
+    
+    .burger.bg-blue {
+        -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2)
+    }
+    
+    .burger span {
+        position: relative;
+        margin-top: 9px;
+        margin-bottom: 9px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -13px;
+        margin-top: -1px
+    }
+    
+    .burger span,
+    .burger span::before,
+    .burger span::after {
+        display: block;
+        width: 18px;
+        height: 2px;
+        background-color: #fff;
+        outline: 1px solid transparent;
+        -webkit-transition-property: background-color, -webkit-transform;
+        -moz-transition-property: background-color, -moz-transform;
+        -o-transition-property: background-color, -o-transform;
+        transition-property: background-color, transform;
+        -webkit-transition-duration: .3s;
+        -moz-transition-duration: .3s;
+        -o-transition-duration: .3s;
+        transition-duration: .3s
+    }
+    
+    .burger span::before,
+    .burger span::after {
+        position: absolute;
+        content: "";
+        width: 26px
+    }
+    
+    .burger span::before {
+        top: -7px
+    }
+    
+    .burger span::after {
+        top: 7px
+    }
+    
+    .burger.clicked span {
+        background-color: transparent
+    }
+    
+    .burger.clicked span::before {
+        -webkit-transform: translateY(9px) rotate(45deg);
+        -moz-transform: translateY(9px) rotate(45deg);
+        -ms-transform: translateY(9px) rotate(45deg);
+        -o-transform: translateY(9px) rotate(45deg);
+        transform: translateY(9px) rotate(45deg);
+        top: -10px
+    }
+    
+    .burger.clicked span::after {
+        -webkit-transform: translateY(-9px) rotate(-45deg);
+        -moz-transform: translateY(-9px) rotate(-45deg);
+        -ms-transform: translateY(-9px) rotate(-45deg);
+        -o-transform: translateY(-9px) rotate(-45deg);
+        transform: translateY(-9px) rotate(-45deg)
+    }
+    
+    .burger.clicked span:before,
+    .burger.clicked span:after {
+        background-color: #fff
+    }
+    
+    .burger:hover {
+        cursor: pointer
+    }
+    .sticky .burger{
+        top: 10px;
+    }
+
+    /* header end */
+
+    .banner-caption {
+        max-width: 50%;
+    }
+    .about .pe-5{
+        padding-right: 0 !important;
+        margin-bottom: 3em;
+    }
+    .green-vertical {
+        margin-bottom: 1em;
+    }
+    .testimonials-slider {
+        padding: 1em 0 7em 0;
+    }
+    .testimonials-slider .slide-img {
+        margin: 2em;
+    }
+    .testimonials-slider .swiper-slide.swiper-slide-active {
+        transform: scale(1) !important;
+    }
+    .testimonials-box {
+        padding: 35px 20px;
+        bottom: -15%;
+    }
+    .swiper-button-prev {
+        right: 13%;
+    }
+    
+}
+
+@media only screen and (max-width:767px){
+    .green-vertical {
+        width: 25%;
+    }
+    .about-sec {
+        padding: 1em;
+    }
+    .blue-bg {
+        top: 0px;
+        left: 0px;
+        width: 50%;
+        height: 80%;
+    }
+    .swiper-pagination-bullets {
+        display: none;
+    }
+    
+    .our-insurance {
+        padding: 0 1em;
+        /* margin: 0 1em; */
+    }
+    .our-insurance-slider .swiper-slide {
+        padding: 1.5em;
+        margin: 0em;
+    }
+    .our-insurance-slider .swiper-slide .content {
+        padding-right: 0;
+    }
+    .our-insurance-slider {
+        padding-bottom: 6em;
+    }
+    .swiper-button-prev {
+        right: 20%;
+    }
+    .our-insurance-slider .swiper-slide .content span {
+        width: 35px;
+        height: 35px;
+    }
+    .content a svg {
+        width: 15px;
+        height: 15px;
+    }
+    .our-insurance h3 {
+        font-size: 17px;
+    }
+    .heading-bg {
+        margin-top: 2em;
+    }
+}
