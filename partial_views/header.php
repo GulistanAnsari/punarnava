@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>home page Punarnava</title>
+  <title>Punarnava</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name='Description' content='' />
@@ -10,7 +10,9 @@
   <!-- font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">  
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+ 
 
   <!-- CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -20,7 +22,7 @@
   
 </head>
 <body>
-<header>
+<header class="text-normal">
         <div class="container">
             <div class="row">
                 <nav class="navbar navbar-expand-lg navbar-light p-0">
@@ -40,7 +42,7 @@
                                 <a class="nav-link" href="about.php">About</a>
                             </li>
                             <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="javascript:;" role="button" data-bs-toggle="dropdown">Services</a>
+                              <a class="nav-link dropdown-toggle" href="services.php" role="button" >Services</a>
                               <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="javascript:;">Portfolio Management</a></li>
                                 <li><a class="dropdown-item" href="javascript:;">Insurance Audits and Advisory</a></li>

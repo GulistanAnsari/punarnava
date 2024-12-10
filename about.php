@@ -11,7 +11,7 @@
 
 <!-- Overview Start -->
 <section class="about">
-    <span class="green-vertical"></span>
+    <span class="green-horizontal"></span>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 pe-5 mt-4">
@@ -112,47 +112,45 @@
   
 <!-- Our value end -->
 
+<!-- Vision and Mission start -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 vision-mission-main">
+        <h2 class="text-center">Vision <span>and</span> Mission</h2>
+        <div class="vision-mission">
+          <div class="vision-mission-item">
+            <img src="images/our-vision.svg" class="img-fluid" alt="" width="" height="" />
+            <h3>Our Vision</h3>
+            <p>At Punarnava Insurance, we envision a future where individuals and businesses are empowered to thrive, free from financial uncertainties. Our goal is to redefine risk management through innovative, reliable, and client-focused solutions, ensuring peace of mind and security for our clients as they pursue their dreams.</p>
+          </div>
+          <div class="vision-mission-item">
+            <img src="images/our-mission.svg" class="img-fluid" alt="" width="" height="" />
+            <h3>Our Mission</h3>
+            <p>Our mission is to provide innovative and tailored insurance solutions that empower individuals and businesses to achieve their aspirations with confidence. At Punarnava Insurance, we are committed to ensuring financial security and peace of mind, helping our clients navigate life's uncertainties and thrive without compromise</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <img src="images/our-vision-mission.jpg" class="img-fluid" alt="" width="" height="" />
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Vision and Mission end -->
+
 <!-- Form start -->
 <section class="mb-5">
-    <span class="blue-vertical"></span>
+    <span class="blue-horizontal"></span>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
                 <h2>Get In Touch</h2>
             </div>
         </div>
-        <div class="row mt-4 about-form p-4 rounded-3 align-items-center">
-            <div class="col-sm-6 p-0">
-                <h3>Let’s connect</h3>
-                <p class="mb-4">Take The First Step & Get Insured Now</p>
-                <form class="row g-3">
-                <div class="col-sm-6">
-                    <input type="text" class="form-control" id="" placeholder="First Name">
-                </div>
-                <div class="col-sm-6">
-                    <input type="text" class="form-control" id="" placeholder="Last Name">
-                </div>
-                <div class="col-sm-12">
-                    <input type="email" class="form-control" id="" placeholder="Email">
-                </div>
-                
-                <div class="col-sm-12">
-                    <input type="number" class="form-control" id="" placeholder="Phone Number">
-                </div>
-                <div class="col-sm-12">
-                    <textarea class="form-control" id="" rows="4" placeholder="Massage"></textarea>
-                </div>
-                <div class="col-sm-12">
-                    <button type="submit" class="btn btn-primary w-100 submit-btn">Submit</button>
-                </div>
-                </form>
-            </div>
-            <div class="col-sm-6 p-0 ps-5">
-                <img src="images/about-form.png" class="img-fluid" alt="" width="" height="" />
-            </div>
-        </div>
+        <?php include 'partial_views/footer-form.php';?>
     </div>
-    <span class="blue-vertical float-end"></span>
+    <span class="blue-horizontal float-end"></span>
 </section>
 <!-- Form End -->
 

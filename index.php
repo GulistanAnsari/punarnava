@@ -14,7 +14,7 @@
 
 <!-- About Us Start -->
 <section class="about">
-        <span class="green-vertical"></span>
+        <span class="green-horizontal"></span>
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 pe-5">
@@ -30,7 +30,7 @@
                 </div>
             </div>
         </div>
-        <span class="green-vertical float-end mt-4"></span>
+        <span class="green-horizontal float-end mt-4"></span>
     </section>
 <!-- About Us ENd -->
 
@@ -259,16 +259,167 @@
 
 
 <!-- Get In Touch Start -->
- <section class="get-in-touch">
+<section class="get-in-touch">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-7 text-center">
+            <div class="col-lg-8 text-center">
                 <h2 class="get">Get in Touch</h2>
+            </div>
+            <div class="col-sm-8">
+                <div class="get-in-touch-form">
+                    <div class="text-center">
+                        <ul class="list-unstyled form-wizard-steps clearfix">
+                            <li class="step1 active activated"><span>1</span></li>
+                            <li class="step2"><span>2</span></li>
+                            <li class="step3"><span>3</span></li>
+                            <li class="step4"><span>4</span></li>
+                        </ul>
+                    </div>
+                    <form>
+                        <div class="form">
+                            <div class="form-item section-1">
+                                <h3>Contact details</h3>
+                                <p>Please fill your information </p>
+                                <div class="mt-4">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Name</label>
+                                                <div class="img-input-group">
+                                                    <input type="text" class="form-control" id="">
+                                                    <span><img src="images/name-icon.svg" alt="" width="" height="" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Email </label>
+                                                <div class="img-input-group">
+                                                    <input type="email" class="form-control" id="" >
+                                                    <span><img src="images/email-icon.svg" alt="" width="" height="" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Phone Number</label>
+                                                <div class="img-input-group">
+                                                    <input type="text" class="form-control" id="" >
+                                                    <span><img src="images/mobile-icon.svg" alt="" width="" height="" /></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="" class="form-label">Company</label>
+                                                <div class="img-input-group">
+                                                    <input type="text" class="form-control" id="" >
+                                                    <span><img src="images/company-icon.svg" alt="" width="" height="" /></span>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="buttons">
+                                        <button type="button" class="btn btn-primary next step1-next">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-item section-2 d-none">
+                                <h3>Select service...</h3>
+                                <div class="mt-4">
+                                    <div class="radio-inputs ">
+                                        <div class="row  align-items-center">
+                                            <div class="col-sm-6">
+                                                <label>
+                                                <input class="radio-input" type="radio" name="service">
+                                                    <span class="radio-tile">
+                                                    <span class="radio-label">Corporate Insurance</span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>
+                                                <input class="radio-input" type="radio" name="service">
+                                                <span class="radio-tile">
+                                                    <span class="radio-label">Health Insurance</span>
+                                                </span>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>
+                                                <input class="radio-input" type="radio" name="service">
+                                                <span class="radio-tile">
+                                                    <span class="radio-label">General Insurance</span>
+                                                </span>
+                                                </label>
+                                            </div>
+                                        </div>                                             
+                                    </div>
+
+                                    <div class="buttons">
+                                        <button type="button" class="btn btn-primary prev step2-prev">Previous</button>
+                                        <button type="button" class="btn btn-primary next step2-next">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-item section-3 d-none">
+                                <h3>Where did you hear about us?</h3>
+                                <div class="mt-4">
+                                    <div class="radio-inputs ">
+                                        <div class="row  align-items-center">
+                                            <div class="col-sm-6">
+                                                <label>
+                                                <input class="radio-input" type="radio" name="about-us">
+                                                    <span class="radio-tile">
+                                                    <span class="radio-label">Instagram</span>
+                                                    </span>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>
+                                                <input class="radio-input" type="radio" name="about-us">
+                                                <span class="radio-tile">
+                                                    <span class="radio-label">Facebook</span>
+                                                </span>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>
+                                                <input class="radio-input" type="radio" name="about-us">
+                                                <span class="radio-tile">
+                                                    <span class="radio-label">Advertisement</span>
+                                                </span>
+                                                </label>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label>
+                                                <input class="radio-input" type="radio" name="about-us">
+                                                <span class="radio-tile">
+                                                    <span class="radio-label">Other</span>
+                                                </span>
+                                                </label>
+                                            </div>
+                                        </div>                                             
+                                    </div>
+
+                                    <div class="buttons">
+                                        <button type="button" class="btn btn-primary prev step3-prev">Previous</button>
+                                        <button type="button" class="btn btn-primary next step3-next">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-item section-4 d-none text-center">
+                                <img src="images/submitted-icon.svg" class="img-fluid" alt="" width="" height="" />
+                                <h3>Request Submitted Successfully</h3>
+                                <p>Congratulations!! You will receive your quote in 24 - 48 hours</p>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
             </div>
         </div>
     </div>
-
-    
  </section>
 <!-- Get In Touch End -->
 

@@ -21,6 +21,45 @@ $( document ).ready(function() {
     $('.burger').click(function () {
         $('.burger').toggleClass('clicked');
     });
+
+
+
+
+    $(".step1-next").click(function(){
+        $(".section-1").addClass("d-none");
+        $(".section-2").removeClass("d-none");
+        $(".step1").addClass("activated");
+        $(".step2").addClass("active");
+    });
+    $(".step2-next").click(function(){
+        $(".section-2").addClass("d-none");
+        $(".section-3").removeClass("d-none");
+        $(".step2").addClass("activated");
+        $(".step3").addClass("active");
+    });
+    $(".step3-next").click(function(){
+        $(".section-3").addClass("d-none");
+        $(".section-4").removeClass("d-none");
+        $(".step3").addClass("activated");
+        $(".step4").addClass("active");
+    });
+    $(".step2-prev").click(function(){
+        $(".section-2").addClass("d-none");
+        $(".section-1").removeClass("d-none");
+        $(".step2").removeClass("active");
+        $(".step1").removeClass("activated");
+    });
+    $(".step3-prev").click(function(){
+        $(".section-3").addClass("d-none");
+        $(".section-2").removeClass("d-none");
+        $(".step3").removeClass("active");
+        $(".step2").removeClass("activated");
+    });
+
+
+
+
+
     
     const our_insurance = new Swiper(".our-insurance-slider", {
         slidesPerView: 1, 
@@ -106,11 +145,63 @@ $( document ).ready(function() {
             }
         }
     });
+
+    let SwiperTop = new Swiper('.marquee-slider', {
+        spaceBetween: 0,
+        // centeredSlides: true,
+        slidesPerView: 3,
+        speed: 10000,
+        autoplay: {
+          delay: 5,
+        },
+        loop: true,
+        allowTouchMove: false,
+        disableOnInteraction: true,
+        breakpoints: {
+          
+          480: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+        }
+      });
     
-
-
-
-  
+      var swiper = new Swiper(".services-slider", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        grabCursor: true,
+        parallax: true, 
+        speed: 1000,  
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          
+          480: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+        }
+      });
+    
+     // Blog-Insurance STart
+      var swiper = new Swiper(".blog-insurance-slider", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        grabCursor: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        parallax: true, 
+        speed: 1000,  
+      });
+      // Blog-Insurance End  
 
 
 
