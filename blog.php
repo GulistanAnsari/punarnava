@@ -8,61 +8,86 @@
  </section>
 <!-- inner banner end -->
 
+<!-- About Us Start -->
+<section class="about blog-about">
+   <span class="blue-horizontal float-end"></span>
+   
+   
+   <div class="container position-relative">
+      <span class="blue-vertical"></span>
+       <div class="row align-items-center mt-4">
+         <div class="col-sm-6 blue-vertical-left position-relative">
+            
+            <div class="about-sec position-relative">
+               <img src="images/about.png" class="img-fluid img-animation" alt="" width="" height="" />
+               <div class="blue-bg"></div>
+            </div>
+         </div>
+         <div class="col-sm-6 copy">
+            <h3 class="mb-3">Safeguard Your Future with Our Comprehensive Insurance Services</h3>
+            <p>At our insurance company, we prioritize your peace of mind and financial security through tailored insurance solutions.</p>
+            <div class="latest-item">
+               <img src="images/latest.svg" class="img-fluid img-animation" alt="" width="" height="" />
+               <div class="latest">
+                  <h4>Get the Latest Version for Enhanced Coverage</h4>
+                  <p>Download the latest version of our insurance offerings to stay protected in today's ever-changing world.</p>
+               </div>
+            </div>
+            <a href="javascript:;" class="btn d-block">Start Your Journey Today</a>
+         </div>
+           
+       </div>
+   </div>
+</section>
+<!-- About Us ENd -->
 
 <!-- Blog-Insurance STart -->
-<section>
+<section class="blog-insurance p-0">
    <div class="container">
       <div class="row">
          <div class="col-sm-12">
-            <div class="swiper-container blog-insurance-slider">
-            <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                  <div class="row align-items-center">
-                     <div class="col-sm-6 pe-5">
-                        <div class="">
-                        <h2>Lorem</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quis?</p>
+            <div class="swiper blog-insurance-slider mt-4 pb-5">
+               <div class="swiper-wrapper blog-about">
+                   <div class="swiper-slide">
+                    <div class="row align-items-center">
+                       <div class="col-sm-6 pe-5">
+                           <div class="copy">
+                              <h3>Comprehensive Insurance Services</h3>
+                              <p>Protecting What Matters Most</p>
+                           </div>
+                       </div>
+                       <div class="col-sm-6 ">
+                           <div class="about-sec position-relative">
+                              <img src="images/about.png" class="img-fluid img-animation" alt="" width="" height="" />
+                              <div class="blue-bg"></div>
+                           </div>
+                     </div>
+                    </div>
+                   </div>  
+                   <div class="swiper-slide">
+                     <div class="row align-items-center">
+                        <div class="col-sm-6 pe-5">
+                            <div class="copy">
+                               <h3>Comprehensive Insurance Services</h3>
+                               <p>Protecting What Matters Most</p>
+                            </div>
                         </div>
+                        <div class="col-sm-6 ">
+                            <div class="about-sec position-relative">
+                               <img src="images/about.png" class="img-fluid img-animation" alt="" width="" height="" />
+                               <div class="blue-bg"></div>
+                            </div>
+                      </div>
                      </div>
-                     <div class="col-sm-6">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsi9s4uw_vkViceb-mVxumGj_ii7dV0OvMZQ&s" class="img-fluid" alt="...">
-                     </div>
-                  </div>
-                  </div>
-                  <div class="swiper-slide">
-                  <div class="row align-items-center">
-                     <div class="col-sm-6 pe-5">
-                        <div class="">
-                        <h2>Lorem</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quis?</p>
-                        </div>
-                     </div>
-                     <div class="col-sm-6">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsi9s4uw_vkViceb-mVxumGj_ii7dV0OvMZQ&s" class="img-fluid" alt="...">
-                     </div>
-                  </div>
-                  </div>
-                  <div class="swiper-slide">
-                  <div class="row align-items-center">
-                     <div class="col-sm-6 pe-5">
-                        <div class="">
-                        <h2>Lorem</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quis?</p>
-                        </div>
-                     </div>
-                     <div class="col-sm-6">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsi9s4uw_vkViceb-mVxumGj_ii7dV0OvMZQ&s" class="img-fluid" alt="...">
-                     </div>
-                  </div>
-                  </div>
-                  
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            </div>
+                    </div>  
+               </div>
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div> 
+           </div>
          </div>
       </div>
    </div>
+
 </section>
 <!-- Blog-Insurance End -->
 
@@ -94,9 +119,10 @@
    <div class="container">
       <div class="row mt-4 flex-column-reverse flex-md-row">
         <div class="col-sm-9">
-          <div class="services-offer position-relative">
+          <div class="services-offer position-relative ">
             <h2>Services we offer</h2>
-            <ul>
+            <ul class="green-vertical-left">
+               <span class="green-vertical"></span>
               <li>Portfolio Management</li>
               <li>Insurance Audits and Advisory</li>
               <li>Valuation of Assets</li>
@@ -118,9 +144,9 @@
    </div>
 </section>
   
-  
+
 <!-- Blog start -->
-<section class="blog">
+<section class="blog pt-0">
    <div class="container">
       <div class="row">
          <div class="col-sm-12 mb-4">
@@ -131,12 +157,10 @@
                <a href="javascript:;">
                <img src="images/blog/blog1.png" class="img-fluid" alt="" width="" height="" />
                   <figcaption class="figure-caption">
-                     <h4>Latest News Science Tech</h4>
-                     <p>Buy Family Health Policy with Amazing Benefits</p>
+                     <h5>Latest News Science Tech</h5>
+                     <h4>Buy Family Health Policy with Amazing Benefits</h4>
                      <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
-                        </svg>
+                        <img src="images/more-icon.svg" alt="" width="" height="" />
                      </span>
                   </figcaption>
                </a>
@@ -147,12 +171,10 @@
                <a href="javascript:;">
                   <img src="images/blog/blog2.png" class="img-fluid" alt="" width="" height="" />
                   <figcaption class="figure-caption">
-                     <h4>Latest News Science Tech</h4>
-                     <p>Key Benefits of Having a Burglary Policy </p>
+                     <h5>Latest News Science Tech</h5>
+                     <h4>Key Benefits of Having a Burglary Policy </h4>
                      <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
-                        </svg>
+                        <img src="images/more-icon.svg" alt="" width="" height="" />
                      </span>
                   </figcaption>
                </a>
@@ -163,12 +185,10 @@
                <a href="javascript:;">
                   <img src="images/blog/blog3.png" class="img-fluid" alt="" width="" height="" />
                   <figcaption class="figure-caption">
-                     <h4>Latest News Science Tech</h4>
-                     <p>Let’s Talk About the Coverage Options of Marine Insurance </p>
+                     <h5>Latest News Science Tech</h5>
+                     <h4>Let’s Talk About the Coverage Options of Marine Insurance </h4>
                      <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
-                        </svg>
+                        <img src="images/more-icon.svg" alt="" width="" height="" />
                      </span>
                   </figcaption>
                </a>
@@ -179,12 +199,10 @@
                <a href="javascript:;">
                <img src="images/blog/blog1.png" class="img-fluid" alt="" width="" height="" />
                   <figcaption class="figure-caption">
-                     <h4>Latest News Science Tech</h4>
-                     <p>Buy Family Health Policy with Amazing Benefits</p>
+                     <h5>Latest News Science Tech</h5>
+                     <h4>Buy Family Health Policy with Amazing Benefits</h4>
                      <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
-                        </svg>
+                        <img src="images/more-icon.svg" alt="" width="" height="" />
                      </span>
                   </figcaption>
                </a>
@@ -195,12 +213,10 @@
                <a href="javascript:;">
                   <img src="images/blog/blog2.png" class="img-fluid" alt="" width="" height="" />
                   <figcaption class="figure-caption">
-                     <h4>Latest News Science Tech</h4>
-                     <p>Key Benefits of Having a Burglary Policy </p>
+                     <h5>Latest News Science Tech</h5>
+                     <h4>Key Benefits of Having a Burglary Policy </h4>
                      <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
-                        </svg>
+                        <img src="images/more-icon.svg" alt="" width="" height="" />
                      </span>
                   </figcaption>
                </a>
@@ -211,12 +227,10 @@
                <a href="javascript:;">
                   <img src="images/blog/blog3.png" class="img-fluid" alt="" width="" height="" />
                   <figcaption class="figure-caption">
-                     <h4>Latest News Science Tech</h4>
-                     <p>Let’s Talk About the Coverage Options of Marine Insurance </p>
+                     <h5>Latest News Science Tech</h5>
+                     <h4>Let’s Talk About the Coverage Options of Marine Insurance </h4>
                      <span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
-                        </svg>
+                        <img src="images/more-icon.svg" alt="" width="" height="" />
                      </span>
                   </figcaption>
                </a>

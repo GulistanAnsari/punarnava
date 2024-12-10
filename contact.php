@@ -9,7 +9,8 @@
 <!-- inner banner end -->
 
 <!-- Overview Start -->
-<section class="blue-vertical">
+<section class="overview">
+<span class="blue-vertical"></span>
    <div class="container">
        <div class="row align-items-center">
            <div class="col-lg-12 pe-5 mt-4">

@@ -53,7 +53,7 @@
                               </ul>
                             </li>
                             <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="javascript:;" role="button" data-bs-toggle="dropdown">Policies</a>
+                              <a class="nav-link dropdown-toggle" href="policies.php" role="button" >Policies</a>
                               <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="javascript:;">Burglary Insurance</a></li>
                                 <li><a class="dropdown-item" href="javascript:;">Fire and Allied Perils</a></li>

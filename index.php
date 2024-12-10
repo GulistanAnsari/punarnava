@@ -7,31 +7,31 @@
     <div class="banner-caption">
         <h1 class="mb-3">About Punarnava</h1>
         <p class="text-white">We are one of the leading insurance brokers specialized in corporate, burglary and related insurances.</p>
-        <a href="#" class="btn">Click Here</a>
+        <a href="javascript:;" class="btn">Click Here</a>
     </div>
 </section>
 <!-- banner end -->
 
 <!-- About Us Start -->
-<section class="about">
-        <span class="green-horizontal"></span>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 pe-5">
-                    <h2 class="mb-3">About <span>US</span></h2>
-                    <p>The company was originally started by Mr. Dinesh Samant in 2020 at Udupi in Karnataka. We are specialized mainly into corporate, fire, health, burglary and related insurance policies. We have a team of experienced insurance professionals who are ready to serve with the best suitable policy for your requirements.</p>
-                    <a href="#" class="btn">Read more</a>
-                </div>
-                <div class="col-lg-6 ">
-                    <div class="about-sec position-relative">
-                       <img src="images/about.png" class="img-fluid img-animation" alt="" width="" height="" />
-                       <div class="blue-bg"></div>
-                    </div>
+<section class="about animation-tri">
+    <span class="green-horizontal"></span>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-sm-6 pe-5">
+                <h2 class="mb-3">About <span>US</span></h2>
+                <p>The company was originally started by Mr. Dinesh Samant in 2020 at Udupi in Karnataka. We are specialized mainly into corporate, fire, health, burglary and related insurance policies. We have a team of experienced insurance professionals who are ready to serve with the best suitable policy for your requirements.</p>
+                <a href="javascript:;" class="btn">Read more</a>
+            </div>
+            <div class="col-sm-6 ">
+                <div class="about-sec position-relative">
+                    <img src="images/about.png" class="img-fluid img-animation" alt="" width="" height="" />
+                    <div class="blue-bg"></div>
                 </div>
             </div>
         </div>
-        <span class="green-horizontal float-end mt-4"></span>
-    </section>
+    </div>
+    <span class="green-horizontal float-end mt-4"></span>
+</section>
 <!-- About Us ENd -->
 
 
@@ -40,19 +40,19 @@
     <img src="images/map-img.png" class="img-fluid" alt="" width="" height="" />
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-sm-6">
                 <span class="green-loc">20 years of Legacy</span>
             </div>
-            <div class="col-lg-6 text-lg-end">
+            <div class="col-sm-6 text-lg-end">
                 <span class="blue-loc">Customer-centric Service</span>
             </div>
             <div class="col-lg-12 mt-5 mb-5 text-center">
                 <span class="blue-loc">Industry Experts</span>
             </div>
-            <div class="col-lg-6">
+            <div class="col-sm-6">
                 <span class="blue-loc">Tailored Approach</span>
             </div>
-            <div class="col-lg-6 text-lg-end">
+            <div class="col-sm-6 text-lg-end">
                 <span class="green-loc">Smooth Claim Assistance</span>
             </div>
         </div>
@@ -78,7 +78,7 @@
                 <div class="content">
                     <h3 class="mb-2">Corporate Insurance</h3>
                     <p>Comprehensive coverage, tailored for businesses - Safeguard your corporate assets.</p>
-                    <a href="#" class="d-flex align-items-center"> 
+                    <a href="javascript:;" class="d-flex align-items-center"> 
                         <span class="rounded-pill">
                             <svg width="21" height="20" viewBox="0 0 21 20" fill="" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"/>
@@ -93,7 +93,7 @@
                 <div class="content">
                     <h3 class="mb-2">Corporate Insurance</h3>
                     <p>Comprehensive coverage, tailored for businesses - Safeguard your corporate assets.</p>
-                    <a href="#" class="d-flex align-items-center"> 
+                    <a href="javascript:;" class="d-flex align-items-center"> 
                         <span class="rounded-pill">
                             <svg width="21" height="20" viewBox="0 0 21 20" fill="" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"/>
@@ -108,7 +108,7 @@
                 <div class="content">
                     <h3 class="mb-2">Corporate Insurance</h3>
                     <p>Comprehensive coverage, tailored for businesses - Safeguard your corporate assets.</p>
-                    <a href="#" class="d-flex align-items-center"> 
+                    <a href="javascript:;" class="d-flex align-items-center"> 
                         <span class="rounded-pill">
                             <svg width="21" height="20" viewBox="0 0 21 20" fill="" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"/>
@@ -123,7 +123,7 @@
                 <div class="content">
                     <h3 class="mb-2">Corporate Insurance</h3>
                     <p>Comprehensive coverage, tailored for businesses - Safeguard your corporate assets.</p>
-                    <a href="#" class="d-flex align-items-center"> 
+                    <a href="javascript:;" class="d-flex align-items-center"> 
                         <span class="rounded-pill">
                             <svg width="21" height="20" viewBox="0 0 21 20" fill="" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"/>
@@ -204,57 +204,7 @@
     </div>
 </section>
 
-<section class="testimonials-sec">
-    <div class="swiper testimonials-slider mt-4">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide d-flex align-items-center">
-                <div class="slide-img position-relative">
-                    <img src="images/testimonials-img1.png" class="img-fluid" alt="" width="" height="" />
-                    <div class="testimonials-box">
-                        <h4 class="mb-3">Why risk management is key for Business Resilience?</h4>
-                        <p>As the global landscape of clinical trials evolves, India is emerging as a leading hub for conducting research.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide d-flex align-items-center">
-                <div class="slide-img position-relative">
-                    <img src="images/testimonials-img1.png" class="img-fluid" alt="" width="" height="" />
-                    <div class="testimonials-box">
-                        <h4 class="mb-3">Why risk management is key for Business Resilience?</h4>
-                        <p>As the global landscape of clinical trials evolves, India is emerging as a leading hub for conducting research.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide d-flex align-items-center">
-                <div class="slide-img position-relative">
-                    <img src="images/testimonials-img1.png" class="img-fluid" alt="" width="" height="" />
-                    <div class="testimonials-box">
-                        <h4 class="mb-3">Why risk management is key for Business Resilience?</h4>
-                        <p>As the global landscape of clinical trials evolves, India is emerging as a leading hub for conducting research.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide d-flex align-items-center">
-                <div class="slide-img position-relative">
-                    <img src="images/testimonials-img1.png" class="img-fluid" alt="" width="" height="" />
-                    <div class="testimonials-box">
-                        <h4 class="mb-3">Why risk management is key for Business Resilience?</h4>
-                        <p>As the global landscape of clinical trials evolves, India is emerging as a leading hub for conducting research.</p>
-                        <a href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-        
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    </div>
-</section>
+<?php include 'partial_views/testimonials.php';?>
 <!-- testimonials End -->
 
 

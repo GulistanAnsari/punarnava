@@ -10,7 +10,7 @@
 
 
 <!-- Overview Start -->
-<section class="about">
+<section class="about animation-tri">
     <span class="green-horizontal"></span>
     <div class="container">
         <div class="row align-items-center">
@@ -140,7 +140,7 @@
 <!-- Vision and Mission end -->
 
 <!-- Form start -->
-<section class="mb-5">
+<section class="mb-5 animation-tri">
     <span class="blue-horizontal"></span>
     <div class="container">
         <div class="row">

@@ -152,7 +152,7 @@ $( document ).ready(function() {
         slidesPerView: 3,
         speed: 10000,
         autoplay: {
-          delay: 5,
+          delay: 100,
         },
         loop: true,
         allowTouchMove: false,
@@ -168,39 +168,63 @@ $( document ).ready(function() {
         }
       });
     
-      var swiper = new Swiper(".services-slider", {
+      // var services_slider = new Swiper(".services-slider", {
+      //   slidesPerView: 3,
+      //   spaceBetween: 20,
+      //   grabCursor: false,
+      //   parallax: false, 
+      //   speed: 1000,  
+      //   pagination: {
+      //     el: ".swiper-pagination",
+      //     clickable: true,
+      //   },
+      //   breakpoints: {
+          
+      //     480: {
+      //       slidesPerView: 1,
+      //     },
+      //     768: {
+      //       slidesPerView: 2,
+      //     },
+      //   }
+      // });
+
+      var services = new Swiper(".services-slider", {
         slidesPerView: 3,
         spaceBetween: 30,
-        grabCursor: true,
-        parallax: true, 
-        speed: 1000,  
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
         },
-        breakpoints: {
-          
-          480: {
-            slidesPerView: 1,
-          },
-          768: {
-            slidesPerView: 2,
-          },
-        }
       });
     
-     // Blog-Insurance STart
-      var swiper = new Swiper(".blog-insurance-slider", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        grabCursor: true,
+     // Blog-Insurance Start
+      const blog_insurance_slider = new Swiper(".blog-insurance-slider", {
+        slidesPerView: 1, 
+        spaceBetween: 20, 
+        parallax: false, 
+        speed: 1000,   
+        loop: true, 
+        slideToClickedSlide: false, 
         navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
         },
-        parallax: true, 
-        speed: 1000,  
-      });
+        breakpoints: {
+            767: {
+                slidesPerView: 1, 
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 1, 
+                spaceBetween: 10
+            },
+            1024: {
+                slidesPerView: 1,
+                spaceBetween: 15
+            }
+        }
+    });
       // Blog-Insurance End  
 
 
@@ -210,6 +234,31 @@ $( document ).ready(function() {
 
     gsap.registerPlugin(ScrollTrigger);
 
+
+
+  gsap.to(".green-horizontal", {
+    width: "20%", 
+    duration: 3, 
+    scrollTrigger: {
+        trigger: ".animation-tri",
+        start: "top 100%", 
+        end: "bottom 10%", 
+        toggleActions: "play pause resume reset", 
+    }
+});
+
+
+
+  //   gsap.to(".x-line", {
+  //     width: "20%", 
+  //     duration: 2, 
+  //     scrollTrigger: {
+  //         trigger: ".form-div",
+  //         start: "top 100%", 
+  //         end: "bottom 100%", 
+  //         toggleActions: "play pause resume reset", 
+  //     }
+  // });
    
 
     document.querySelectorAll(".blue-bg").forEach((e) => {
