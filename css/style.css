@@ -51,10 +51,20 @@ h3 {
 h2 span {
     color: var(--green-text);
 }
+h2 span.text-blue {
+    color: var(--white-color);
+    background: var(--blue-bg);
+    padding: 12px 50px;
+}
+
 
 section {
     position: relative;
     padding: 50px 0;
+}
+
+.border-none{
+    border: none !important;
 }
 
 :root {
@@ -121,14 +131,15 @@ img {
     margin: auto auto 20px auto;
 }
 
-.blue-horizontal, .blue-vertical  {
+.blue-horizontal{
     background: var(--blue-bg);
     height: 20px;
-    width: 17%;
+    width: 0;
     display: block;
 }
 
 .blue-vertical {
+    background: var(--blue-bg);
     width: 17px;
     height: 50%;
     float: left;
@@ -149,6 +160,23 @@ img {
     top: 63px;
     z-index: -1;
 
+}
+.left-line, .right-line {
+    width: 20px;
+    height: 0;
+    background: var(--blue-bg);
+    position: absolute;
+    transition: height 1s ease;
+}
+.left-line {
+    left: 10%;
+    top: 0%;
+    transform: translateY(-30%);
+}
+.right-line {
+    right: 10%;
+    bottom: 0%;
+    transform: translateY(-20%);
 }
 /* .blue-vertical {
     position: relative;
@@ -284,7 +312,9 @@ header {
     transform: translateY(50%);
     margin-left: 10px;
 }
-
+.mobile-menu{
+    display: none;
+}
 
 /* header end */
 
@@ -319,6 +349,10 @@ header {
     height: 90%;
     background: var(--blue-bg);
     z-index: 1;
+}
+.about h3{
+    color: var(--blue-text);
+    margin-bottom: 10px;
 }
 .about h4{
     color: var(--green-text);
@@ -723,8 +757,8 @@ header {
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
-    border-bottom: 1px solid var(--gray-bg);
-    border-top: 1px solid var(--gray-bg);
+    /* border-bottom: 1px solid var(--gray-bg); */
+    /* border-top: 1px solid var(--gray-bg); */
     transition: 0.5s;
 }
 
@@ -1411,17 +1445,42 @@ footer .input-group .input-group-text {
  .title-two .row{
     margin-bottom: 40px;
  }
- .title-two .row:after{
+ /* .title-two :after{
     content: "";
     position: absolute;
     top: -26px;
     bottom: 0;
     left: 13.5%;
-    right: -6.2%;
+    right: 0%;
     background: var(--blue-bg);
-    /* width: 100%; */
     padding: 47px;
- }
+ } */
+
+
+
+/* .choose start */
+.choose-item{
+    margin-top: 50px;
+}
+.choose-item img{
+    width: auto;
+    height: auto;
+    margin-bottom: 15px;
+}
+.choose-item p{
+    color: var(--blue-text);
+    margin-bottom: 10px;
+}
+.choose-item p b, .choose-item a{
+    font-size: 18px;
+}
+.choose-item a {
+    color: var(--green-text);
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
 
 /* Services end */
 
@@ -1431,5 +1490,15 @@ footer .input-group .input-group-text {
 }
 .policies-item img{
     border-radius: 10px;
+}
+.quotes{
+    margin: 40px 0;
+}
+.quotes h3{
+    padding: 20px 200px;
+    font-weight: normal;
+    color: var(--blue-text);
+    line-height: 1.3;
+    font-size: 28px;
 }
 /* policies end */

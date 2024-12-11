@@ -14,7 +14,7 @@
 
 <!-- About Us Start -->
 <section class="about animation-tri">
-    <span class="green-horizontal"></span>
+    <span class="green-horizontal horizontal-animation"></span>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-sm-6 pe-5">
@@ -30,14 +30,17 @@
             </div>
         </div>
     </div>
-    <span class="green-horizontal float-end mt-4"></span>
+    <span class="green-horizontal horizontal-animation float-end mt-4"></span>
 </section>
 <!-- About Us ENd -->
 
 
 <!-- map Start -->
  <section class="map pb-0">
-    <img src="images/map-img.png" class="img-fluid" alt="" width="" height="" />
+    <picture>
+        <source media="(max-width:767px)" srcset="images/map-img-mobile.png" type="image/webp" />
+        <img src="images/map-img.png" alt="" width="" height="">
+    </picture>
     <div class="container">
         <div class="row">
             <div class="col-sm-6">

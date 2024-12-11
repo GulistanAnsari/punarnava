@@ -14,7 +14,7 @@
         </div>
         
         <div class="col-sm-12">
-            <input type="number" class="form-control" id="" placeholder="Phone Number">
+            <input type="text" class="form-control" id="" placeholder="Phone Number">
         </div>
         <div class="col-sm-12">
             <textarea class="form-control" id="" rows="4" placeholder="Massage"></textarea>

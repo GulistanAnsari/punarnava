@@ -12,7 +12,17 @@ $(window).scroll(function () {
 });
 
 $( document ).ready(function() {
-   
+    
+    jQuery(function($) {
+        var path = window.location.href; 
+        // because the 'href' property of the DOM element is the absolute path
+        $('.navbar-light .navbar-nav .nav-link').each(function() {
+          if (this.href === path) {
+            $(this).addClass('active');
+          }
+        });
+      });
+
     $('.dropdown').hover(
         function() { $(this).addClass('show').find('.dropdown-menu').addClass('show'); },
         function() { $(this).removeClass('show').find('.dropdown-menu').removeClass('show'); }
@@ -236,14 +246,14 @@ $( document ).ready(function() {
 
 
 
-  gsap.to(".green-horizontal", {
+  gsap.to(".horizontal-animation", {
     width: "20%", 
-    duration: 3, 
+    duration: 2, 
     scrollTrigger: {
         trigger: ".animation-tri",
-        start: "top 100%", 
-        end: "bottom 10%", 
-        toggleActions: "play pause resume reset", 
+        start: "top 50%", 
+        end: "bottom 50%", 
+        toggleActions: "play none none reverse", 
     }
 });
 
@@ -297,5 +307,27 @@ $( document ).ready(function() {
       });
     });
 
+    // Animation for the left-line
+    gsap.to(".left-line", {
+        height: "50%", // Target height
+        duration: 2, // Animation lasts 2 seconds
+        scrollTrigger: {
+            trigger: ".animaton-blue",
+            start: "top 50%", // Start when .form-div reaches the top 10% of the viewport
+            end: "bottom 50%", // End when .form-div's bottom reaches the viewport's bottom
+            toggleActions: "play none none reverse", // Controls the behavior on scroll
+        }
+    });
 
+    // Animation for the right-line
+    gsap.to(".right-line", {
+        height: "50%", // Target height
+        duration: 2, // Animation lasts 2 seconds
+        scrollTrigger: {
+            trigger: ".animaton-blue",
+            start: "top 50%", // Start when .form-div reaches the top 10% of the viewport
+            end: "bottom 50%", // End when .form-div's bottom reaches the viewport's bottom
+            toggleActions: "play none none reverse", // Controls the behavior on scroll
+        }
+    });
 });
