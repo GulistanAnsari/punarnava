@@ -9,8 +9,8 @@
 <!-- inner banner end -->
 
 <!-- Overview Start -->
-<section class="overview">
-<span class="blue-vertical"></span>
+<section class="overview animaton-blue pb-0">
+<span class="blue-vertical vertical-line"></span>
    <div class="container">
        <div class="row align-items-center">
            <div class="col-lg-12 pe-5 mt-4">
@@ -23,7 +23,7 @@
 <!-- Overview end -->
 
 <!-- Form start -->
-<section class="p-0 contact-form">
+<section class="pb-0 contact-form">
    <div class="container">
        <div class="row">
            <div class="col-sm-12 text-center">

@@ -1,21 +1,124 @@
 
 
 @media only screen and (min-width:1920px) {
-    .navbar-light .navbar-nav .nav-link{
-        font-size: 16px;
+    .container{
+        max-width: 1400px;
     }
+    section {
+        padding: 70px 0;
+    }
+    body{
+        font-size: 20px;
+    }
+    
+    h1 {
+        font-size: 54px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    
     .navbar-brand img {
         max-width: 140px;
     }
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 16px;
+    }
+    .dropdown-item{
+        font-size: 14px;
+    }
+
+
+    .banner-caption {
+        max-width: 25%;
+    }
+
+    .our-insurance h3{
+        font-size: 30px;
+    }
+
+    .industry-expertise-slider .swiper-button-next {
+        right: 46%;
+    }
+
+    .testimonials-box h4{
+        font-size: 26px;
+    }
+    .testimonials-box p{
+        margin-bottom: 40px;
+    }
+
+    .form-item p{
+        font-size: 18px;
+    }
+
+    footer ul li a{
+        font-size: 16px;
+    }
+    footer p{
+        font-size: 14px;
+    }
+
+    .inner-banner h2.text{
+        font-size: 52px;
+    }
+
+    .about-form h3{
+        font-size: 30px;
+    }
+
+    .blue-horizontal-bg {
+        width: 42.5%;
+        height: 110px;
+    }
+    
+    .services-slider .figure-caption h3{
+        font-size: 22px;
+    }
+
+    .blog-about .copy h3 {
+        font-size: 36px;
+    }
+    .latest-item .latest h4{
+        font-size: 20px;
+    }
+
+    .services-offer ul li{
+        font-size: 24px;
+        padding: 5px 0 28px 0px;
+    }
+
+    .blog .blog-card .figure-caption h4{
+        font-size: 24px;
+    }
+    
+
+    .about h3{
+        font-size: 36px;
+    }
+
+    .quotes h3{
+        font-size: 30px;
+    }
+    
 }
 
-@media (min-width: 1200px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl {
+@media (max-width: 1200px) {
+    .container{
         max-width: 1200px;
     }
 }
 
 @media only screen and (max-width:1024px){
+    body, .btn{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 30px;
+    }
     .navbar-light .navbar-nav .nav-link {
         margin: 0 5px;
     }
@@ -28,7 +131,10 @@
         right: 12%;
     }
     .our-insurance h3 {
-        font-size: 22px;
+        font-size: 16px;
+    }
+    .our-insurance-slider .swiper-slide p {
+        font-size: 13px;
     }
     .testimonials-box{
         padding: 20px;
@@ -42,12 +148,52 @@
         width: 70px;
         height: 70px;
     }
-}
-@media only screen and (max-width:991px){
-    h2 {
+
+    .map .center-div{
+        margin: 20px 0 !important;
+    }
+
+    .swiper-button-next, .swiper-button-prev{
+        width: 40px;
+        height: 40px;
+        background-size: 25px;
+    }
+    .industry-expertise-slider .swiper-button-next {
+        right: 44%;
+    }
+    .blue-bg{
+        left: -10px;
+        top: -10px;
+    }
+    .blue-vertical, .left-line, .right-line{
+        width: 10px;
+    }
+    .green-horizontal, .green-vertical{
+        height: 10px;
+    }
+    .left-line{
+        left: 10px;
+    }
+    .right-line{
+        right: 10px;
+    }
+    .vertical-line-inner{
+        top: 35%;
+    }
+
+    .inner-banner h2.text{
         font-size: 30px;
     }
 
+    
+}
+@media only screen and (max-width:991px){
+    h2 {
+        font-size: 24px;
+    }
+    .inner-banner h2.text{
+        font-size: 26px;
+    }
      /* header end */
     /* .navbar-brand img {
         max-width: unset;
@@ -216,7 +362,8 @@
         margin-bottom: 1em;
     }
     .testimonials-slider {
-        padding: 1em 0 7em 0;
+        padding: 0 0 6em 0;
+        margin-top: 0 !important;
     }
     .testimonials-slider .slide-img {
         margin: 2em;
@@ -231,6 +378,68 @@
     .swiper-button-prev {
         right: 13%;
     }
+    
+
+    .industry-expertise-slider .swiper-button-next {
+        right: 42%;
+    }
+
+    .get-in-touch-form {
+        padding: 25px 10px;
+    }
+    .get-in-touch .col-sm-8{
+        width: 100% !important;
+    }
+
+
+    .about-form{
+        width: 90%;
+    }
+
+
+    .blog-about .copy {
+        padding-left: 15px;
+    }
+
+    .blog-about .copy h3 {
+        font-size: 26px;
+    }
+
+
+    .blog-img {
+        padding: 0px;
+    }
+
+    .services-offer {
+        padding: 35px 0 40px 0px;
+    }
+    .services-offer h2 {
+        margin-bottom: 15px;
+    }
+    .services-offer ul li {
+        padding: 0px 0 10px 0px;
+        font-size: 16px;
+    }
+
+    .blog .blog-card .figure-caption h4 {
+        font-size: 16px;
+        padding-right: 10%;
+    }
+    .quotes h3 {
+        padding: 20px 70px;
+        font-size: 24px;
+    }
+
+    footer .col-sm-3.reach-us{
+        width: 40%;
+    }
+    footer .col-sm-6{
+        width: 60%;
+    }
+    footer .col-sm-3{
+        width: 100%;
+    }
+
     
 }
 

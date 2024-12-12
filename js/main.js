@@ -12,7 +12,8 @@ $(window).scroll(function () {
 });
 
 $( document ).ready(function() {
-    
+
+
     jQuery(function($) {
         var path = window.location.href; 
         // because the 'href' property of the DOM element is the absolute path
@@ -206,6 +207,16 @@ $( document ).ready(function() {
           el: ".swiper-pagination",
           clickable: true,
         },
+        breakpoints: {
+            767: {
+                slidesPerView: 1, 
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 2, 
+                spaceBetween: 10
+            }
+        }
       });
     
      // Blog-Insurance Start
@@ -307,6 +318,27 @@ $( document ).ready(function() {
       });
     });
 
+    // Animation for the left-line
+    gsap.to(".vertical-line", {
+        height: "100%", // Target height
+        duration: 2, // Animation lasts 2 seconds
+        scrollTrigger: {
+            trigger: ".animaton-blue",
+            start: "top 50%", // Start when .form-div reaches the top 10% of the viewport
+            end: "bottom 50%", // End when .form-div's bottom reaches the viewport's bottom
+            toggleActions: "play none none reverse", // Controls the behavior on scroll
+        }
+    });
+    gsap.to(".vertical-line-inner", {
+        height: "50%", // Target height
+        duration: 2, // Animation lasts 2 seconds
+        scrollTrigger: {
+            trigger: ".animaton-blue",
+            start: "top 50%", // Start when .form-div reaches the top 10% of the viewport
+            end: "bottom 50%", // End when .form-div's bottom reaches the viewport's bottom
+            toggleActions: "play none none reverse", // Controls the behavior on scroll
+        }
+    });
     // Animation for the left-line
     gsap.to(".left-line", {
         height: "50%", // Target height

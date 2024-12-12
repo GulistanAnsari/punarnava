@@ -33,13 +33,13 @@ h6 {
 
 h1 {
     color: var(--white-color);
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
 }
 
 h2 {
     color: var(--blue-text);
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 700;
 }
 h3 {
@@ -87,6 +87,7 @@ section {
     font-weight: 700;
     transition: 0.5s;
     border: none;
+    margin-top: 10px;
 }
 
 .btn:hover,
@@ -140,19 +141,22 @@ img {
 
 .blue-vertical {
     background: var(--blue-bg);
-    width: 17px;
-    height: 50%;
+    height: 0;
     float: left;
     position: absolute;
-    left: -5%;
-    top: 20%;
-}
-.overview .blue-vertical {
-    height: 100%;
     left: 0;
+    width: 15px;
+    transition: height 1s ease;
 }
+.vertical-line-inner{
+    transform: translateY(-50%);
+    top: 45%;
+}
+/* .overview .blue-vertical {
+    left: 0;
+} */
 .blue-horizontal-bg{
-    width: 37%;
+    width: 42.5%;
     height: 70px;
     background: var(--blue-bg);
     display: block;
@@ -227,7 +231,23 @@ ul {
     padding: 0;
     margin: 0;
 }
-
+.figure{
+    overflow: hidden;
+}
+a.zoom-effect{
+    overflow: hidden;
+}
+a.zoom-effect:hover img {
+    transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+a.zoom-effect .zoom-img{
+    overflow: hidden;
+}
+a.zoom-effect .zoom-img img{
+    transition: .5s ease;
+}
 /* header start */
 
 header {
@@ -406,9 +426,9 @@ header {
 /* map ENd */
 
 /* Our Insurance Start */
-.our-insurance p {
+/* .our-insurance p {
     font-size: 18px;
-}
+} */
 
 .our-insurance h3 {
     font-size: 26px;
@@ -447,7 +467,7 @@ header {
 .content a {
     font-style: normal;
     text-decoration: none;
-    font-size: 18px;
+    /* font-size: 18px; */
     color: var(--black-color);
 }
 
@@ -486,6 +506,7 @@ header {
 }
 .blog-insurance-slider .blog-about .copy h3{
     width: 80%;
+    margin-bottom: 10px;
 }
 .blog-insurance-slider {
     padding-top: 1em;
@@ -644,6 +665,7 @@ header {
 .testimonials-box p {
     color: var(--white-color);
     line-height: 1.5;
+    margin-bottom: 30px;
 }
 
 .testimonials-box a {
@@ -667,7 +689,7 @@ header {
 }
 
 .swiper-pagination-bullet {
-    padding: 5px;
+    padding: 7px;
 }
 
 .swiper-pagination-bullet-active {
@@ -825,7 +847,7 @@ header {
 
 .form-item h3 {
     color: var(--blue-text);
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 10px
 }
 
@@ -905,7 +927,7 @@ header {
 /* footer start */
 
 footer {
-    padding: 50px;
+    padding: 50px 0;
     background: var(--blue-bg);
 }
 
@@ -937,7 +959,7 @@ footer .reach-us ul li a img {
     top: 12px;
 }
 
-footer p {
+footer .newsletter p {
     color: var(--white-color);
     font-size: 12px;
     opacity: 0.5;
@@ -1036,7 +1058,7 @@ footer .input-group .input-group-text {
 /* Value Start */
 .value {
     background: url(../images/value-bg.jpg) no-repeat;
-    background-size: auto;
+    background-size: 100%;
 }
 
 .value .value-card {
@@ -1045,6 +1067,7 @@ footer .input-group .input-group-text {
     padding: 20px;
     margin: 20px 0 0 0;
     height: 350px;
+    transition: 0.5s;
 }
 
 .value .value-card h3 {
@@ -1052,7 +1075,13 @@ footer .input-group .input-group-text {
     margin-bottom: 20px;
     color: var(--white-color);
 }
-
+.value .value-card:hover{
+    background: var(--white-color);
+}
+.value .value-card:hover h3,
+.value .value-card:hover p{
+    color: var(--blue-text);
+}
 /* Value End */
 
 /* vision mission start */
@@ -1183,6 +1212,7 @@ footer .input-group .input-group-text {
 }
 .blog-about .copy h3{
     font-size: 32px;
+    color: var(--black-color);
 }
 .latest-item{
     position: relative;
@@ -1210,17 +1240,17 @@ footer .input-group .input-group-text {
 .services-offer{
     background: var(--blue-bg);
     border-radius: 0 30px 30px 0;
-    padding: 60px 0 65px 0;
+    padding: 55px 0 65px 0;
     margin-top: 20px;
 }
 .services-offer:before {
     content: "";
     position: absolute;
-    left: -32%;
+    left: -33%;
     top: 0;
     background: var(--blue-bg);
-    width: 32%;
-    z-index: 9;
+    width: 34%;
+    z-index: -1;
     height: 100%;
 }
 .services-offer h2 {
@@ -1229,8 +1259,9 @@ footer .input-group .input-group-text {
 }
 .services-offer ul li {
     color: var(--white-color);
-    padding: 5px 0 25px 0px;
+    padding: 5px 0 15px 0px;
     position: relative;
+    font-size: 20px;
 }
 /* .services-offer ul li:before {
     content: "";
@@ -1244,7 +1275,7 @@ footer .input-group .input-group-text {
 } */
 .services-offer ul{
     position: relative;
-    padding-left: 1.1em;
+    padding-left: 1.3em;
 }
 /* .services-offer ul:before {
     content: "";
@@ -1385,6 +1416,7 @@ footer .input-group .input-group-text {
     -moz-box-shadow: 0 5px 5px 1px rgb(195 195 195 / 50%);
     box-shadow: 0 5px 5px 1px rgb(195 195 195 / 50%);
     border-radius: 15px;
+    transition: 0.5s;
 }
 
 .services-slider .figure-caption{
@@ -1394,12 +1426,15 @@ footer .input-group .input-group-text {
     border: 1px #E2F2F4 solid;
     border-top: none;
 }
+.services-slider a{
+    display: block;
+}
 .services-slider .figure img {
     border-radius: 15px 15px 0 0;
 }
 .services-slider .figure-caption h3{
     color: var(--blue-text);
-    font-size: 18px;
+    font-size: 16px;
 }
 .services-slider .figure-caption p{
     display: block;
@@ -1414,6 +1449,14 @@ footer .input-group .input-group-text {
     overflow: hidden;
     text-overflow: ellipsis;
     color: var(--blue-text);
+}
+.services-slider .figure:hover{
+    -webkit-box-shadow: 0 15px 10px 1px rgb(195 195 195 / 50%);
+    -moz-box-shadow: 0 15px 10px 1px rgb(195 195 195 / 50%);
+    box-shadow: 0 15px 10px 1px rgb(195 195 195 / 50%);
+}
+.services-slider .figure:hover h3{
+    color: var(--green-text);
 }
 /* .lorem{
     background: var(--blue-bg);
@@ -1461,25 +1504,35 @@ footer .input-group .input-group-text {
 /* .choose start */
 .choose-item{
     margin-top: 50px;
+
 }
 .choose-item img{
     width: auto;
     height: auto;
     margin-bottom: 15px;
+    transition: 0.5s;
 }
 .choose-item p{
     color: var(--blue-text);
     margin-bottom: 10px;
 }
-.choose-item p b, .choose-item a{
+/* .choose-item p b, .choose-item a{
     font-size: 18px;
-}
+} */
 .choose-item a {
     color: var(--green-text);
     font-weight: 700;
     margin-bottom: 10px;
+    display: block;
+    transition: 0.5s;
+}
+.choose-item:hover img{
+    transform: translateY(-15px);
 }
 
+.choose-item:hover a{
+    padding-left: 10px;
+}
 
 
 /* Services end */

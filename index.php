@@ -46,16 +46,16 @@
             <div class="col-sm-6">
                 <span class="green-loc">20 years of Legacy</span>
             </div>
-            <div class="col-sm-6 text-lg-end">
+            <div class="col-sm-6 text-sm-end">
                 <span class="blue-loc">Customer-centric Service</span>
             </div>
-            <div class="col-lg-12 mt-5 mb-5 text-center">
+            <div class="col-sm-12 mt-5 mb-5 text-center center-div">
                 <span class="blue-loc">Industry Experts</span>
             </div>
             <div class="col-sm-6">
                 <span class="blue-loc">Tailored Approach</span>
             </div>
-            <div class="col-sm-6 text-lg-end">
+            <div class="col-sm-6 text-sm-end">
                 <span class="green-loc">Smooth Claim Assistance</span>
             </div>
         </div>
@@ -215,7 +215,7 @@
 <section class="get-in-touch">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
+            <div class="col-sm-8 text-center">
                 <h2 class="get">Get in Touch</h2>
             </div>
             <div class="col-sm-8">

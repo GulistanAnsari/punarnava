@@ -9,9 +9,9 @@
                 <div class="col-sm-3 reach-us">
                     <h4>Reach us</h4>
                     <ul>
-                        <li><a href="javascript:;" class="text-underline"><img src="images/call.svg" width="" height="" alt="" /> +91-820-2953325</a></li>
-                        <li><a href="javascript:;" class="text-underline"><img src="images/email.svg" width="" height="" alt="" /> info@punarnavainsurance.com</a></li>
-                        <li><a href="javascript:;" class="text-underline"><img src="images/map.svg" width="" height="" alt="" /> 3rd Floor, Balakrishna Towers, <br>Udupi - 576 101, Karnataka, India</a></li>
+                        <li><a href="tel:8202953325" class="text-underline"><img src="images/call.svg" width="" height="" alt="" /> +91-820-2953325</a></li>
+                        <li><a href="milto:info@punarnavainsurance.com" class="text-underline"><img src="images/email.svg" width="" height="" alt="" /> info@punarnavainsurance.com</a></li>
+                        <li><a href="https://maps.app.goo.gl/UX4ZfGmQVJAZx4yr5" target="_blank" class="text-underline"><img src="images/map.svg" width="" height="" alt="" /> 3rd Floor, Balakrishna Towers, <br>Udupi - 576 101, Karnataka, India</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-6">
@@ -36,7 +36,7 @@
                         <div class="col-sm-4">
                             <h4>Quick Links</h4>
                             <ul>
-                                <li><a href="javascript:;" class="text-underline">Services We Offer</a></li>
+                                <li><a href="services.php" class="text-underline">Services We Offer</a></li>
                                 <li><a href="javascript:;" class="text-underline">Handpicked Policies</a></li>
                                 <li><a href="javascript:;" class="text-underline">Get In Touch With Us</a></li>
                             </ul>
@@ -56,8 +56,16 @@
                     </div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-sm-12 mt-5">
+                    <p class="text-white mb-0">© 2024 Punarnava Insurance Broking Pvt Ltd</p>
+                </div>
+                
+            </div>
         </div>
     </footer>
+
+    
 
     <!-- js -->
     <script src="js/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>

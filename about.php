@@ -11,7 +11,7 @@
 
 <!-- Overview Start -->
 <section class="about animation-tri">
-    <span class="green-horizontal"></span>
+<span class="green-horizontal horizontal-animation"></span>
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 pe-5 mt-4">
@@ -141,7 +141,7 @@
 
 <!-- Form start -->
 <section class="mb-5 animation-tri">
-    <span class="blue-horizontal"></span>
+    <span class="blue-horizontal horizontal-animation"></span>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
@@ -150,7 +150,7 @@
         </div>
         <?php include 'partial_views/footer-form.php';?>
     </div>
-    <span class="blue-horizontal float-end"></span>
+    <span class="blue-horizontal horizontal-animation float-end"></span>
 </section>
 <!-- Form End -->
 
