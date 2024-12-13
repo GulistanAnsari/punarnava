@@ -342,20 +342,24 @@
         padding: 20px;
         position: absolute;
         right: 5px;
-        top: 6px;
+        top: 5px;
         width: 35px;
         height: 35px;
-        /* transform: translateY(-50%); */
         z-index: 99;
     }
-
+    /* .mobile-toggle{
+        width: 85%;
+    } */
+    .mobile-toggle:after{
+        content: unset;
+    }
     /* header end */
 
     .banner-caption {
         max-width: 50%;
     }
     .about .pe-5{
-        padding-right: 0 !important;
+        padding-right: 15px !important;
         margin-bottom: 3em;
     }
     .green-vertical {
@@ -385,7 +389,7 @@
     }
 
     .get-in-touch-form {
-        padding: 25px 10px;
+        padding: 25px 15px;
     }
     .get-in-touch .col-sm-8{
         width: 100% !important;
@@ -444,11 +448,27 @@
 }
 
 @media only screen and (max-width:767px){
+    body, .btn {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+    h1{
+        font-size: 26px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    section {
+        padding: 30px 0;
+    }
+    .green-horizontal{
+        height: 5px;
+    }
     .green-vertical {
         width: 25%;
     }
     .about-sec {
-        padding: 1em;
+        padding: 10px;
     }
     .blue-bg {
         top: 0px;
@@ -456,23 +476,46 @@
         width: 50%;
         height: 80%;
     }
+
+    .banner-caption {
+        max-width: 70%;
+        padding: 0 15px;
+    }
+    .banner-caption h1, .banner-caption p{
+        margin-bottom: 10px !important;
+    }
     .swiper-pagination-bullets {
         display: none;
     }
     
+    .map .green-loc, .map .blue-loc{
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+    .map .center-div {
+        margin: 30px 0 !important;
+    }
+    .map .mobile-margin {
+        margin-top: 35px;
+    }
+
     .our-insurance {
-        padding: 0 1em;
+        padding: 30px 1em;
+        /* margin: 0 -15px; */
         /* margin: 0 1em; */
     }
     .our-insurance-slider .swiper-slide {
         padding: 1.5em;
-        margin: 0em;
+        margin: 0;
     }
     .our-insurance-slider .swiper-slide .content {
         padding-right: 0;
     }
     .our-insurance-slider {
         padding-bottom: 6em;
+    }
+    .our-insurance h3 {
+        font-size: 17px;
     }
     .swiper-button-prev {
         right: 20%;
@@ -481,14 +524,66 @@
         width: 35px;
         height: 35px;
     }
+
+    .industry-expertise-item .copy{
+        font-size: 22px;
+    }
+    .expertise-item {
+        padding: 10px 0;
+    }
+    .industry-expertise-slider{
+        padding-bottom:80px;
+    }
+    .industry-expertise-slider .swiper-button-next {
+        right: 38%;
+    }
     .content a svg {
         width: 15px;
         height: 15px;
     }
-    .our-insurance h3 {
-        font-size: 17px;
-    }
+   
     .heading-bg {
-        margin-top: 2em;
+        margin-top:0;
+    }
+
+    .testimonials-slider {
+        padding: 0 0 9em 0;
+    }
+    .testimonials-box{
+        bottom: -15%;
+        padding: 25px 15px;
+    }
+    .testimonials-slider .slide-img {
+        margin: 0 15px;
+    }
+    .testimonials-slider .slide-img img{
+        width: 100%;
+    }
+    .testimonials-box h4 {
+        font-size: 18px;
+        margin-bottom: 10px !important;
+    }
+
+    .get-in-touch{
+        padding: 0;
+    }
+    .get-in-touch-form{
+        margin: 30px 0 50px 0;
+    }
+    .form-item{
+        height: unset;
+    }
+    .form-wizard-steps {
+        margin: 20px 0;
+    }
+
+    footer .col-sm-3.reach-us{
+        width: 100%;
+    }
+    footer .col-sm-6{
+        width: 100%;
+    }
+    footer h4{
+        margin: 30px 0 10px 0;
     }
 }

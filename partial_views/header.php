@@ -42,33 +42,34 @@
                                 <a class="nav-link" href="about.php">About</a>
                             </li>
                             <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="services.php">Services</a>
-                              <a class="dropdown-toggle mobile-menu" data-bs-toggle="dropdown" aria-expanded="false"></a>
-                              <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="portfolio-management.php">Portfolio Management</a></li>
-                                <li><a class="dropdown-item" href="insurance-audits-and-advisory.php">Insurance Audits and Advisory</a></li>
-                                <li><a class="dropdown-item" href="valuation-of-assets.php">Valuation of Assets</a></li>
-                                <li><a class="dropdown-item" href="risk-evaluation-and-transfer-mechanism.php">Risk Evaluation and Transfer Mechanism</a></li>
-                                <li><a class="dropdown-item" href="claims-management.php">Claims Management</a></li>
-                                <li><a class="dropdown-item border-none" href="safety-audit-and-risk-inspection.php">Safety Audit and Risk Inspection</a></li>
-                              </ul>
+                                <a class="nav-link dropdown-toggle mobile-toggle" href="services.php">Services</a>
+                                <a class="dropdown-toggle mobile-menu" href="javascript:;" role="button" data-bs-toggle="dropdown"></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="portfolio-management.php">Portfolio Management</a></li>
+                                    <li><a class="dropdown-item" href="insurance-audits-and-advisory.php">Insurance Audits and Advisory</a></li>
+                                    <li><a class="dropdown-item" href="valuation-of-assets.php">Valuation of Assets</a></li>
+                                    <li><a class="dropdown-item" href="risk-evaluation-and-transfer-mechanism.php">Risk Evaluation and Transfer Mechanism</a></li>
+                                    <li><a class="dropdown-item" href="claims-management.php">Claims Management</a></li>
+                                    <li><a class="dropdown-item border-none" href="safety-audit-and-risk-inspection.php">Safety Audit and Risk Inspection</a></li>
+                                </ul>
                             </li>
                             <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="policies.php">Policies</a>
-                              <a class="dropdown-toggle mobile-menu" data-bs-toggle="dropdown" aria-expanded="false"></a>
-                              <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="burglary-insurance.php">Burglary Insurance</a></li>
-                                <li><a class="dropdown-item" href="fire-and-allied-perils.php">Fire and Allied Perils</a></li>
-                                <li><a class="dropdown-item" href="individual-health.php">Individual Health</a></li>
-                                <li><a class="dropdown-item" href="family-health.php">Family Health</a></li>
-                                <li><a class="dropdown-item" href="marine-cargo-insurance.php">Marine Cargo Insurance</a></li>
-                                <li><a class="dropdown-item" href="boiler-and-pressure-plant.php">Boiler and Pressure Plant</a></li>
-                                <li><a class="dropdown-item" href="commercial-vehicle.php">Commercial Vehicle</a></li>
-                                <li><a class="dropdown-item" href="housebreaking-insurance.php">Housebreaking Insurance</a></li>
-                                <li><a class="dropdown-item" href="liability-insurance.php">Liability Insurance</a></li>
-                                <li><a class="dropdown-item border-none" href="two-wheeler-insurance.php">Two Wheeler Insurance</a></li>
-                              </ul>
+                                <a class="nav-link dropdown-toggle mobile-toggle" href="policies.php" >Policies</a></a>
+                                <a class="dropdown-toggle mobile-menu" href="javascript:;" role="button" data-bs-toggle="dropdown"></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="burglary-insurance.php">Burglary Insurance</a></li>
+                                    <li><a class="dropdown-item" href="fire-and-allied-perils.php">Fire and Allied Perils</a></li>
+                                    <li><a class="dropdown-item" href="individual-health.php">Individual Health</a></li>
+                                    <li><a class="dropdown-item" href="family-health.php">Family Health</a></li>
+                                    <li><a class="dropdown-item" href="marine-cargo-insurance.php">Marine Cargo Insurance</a></li>
+                                    <li><a class="dropdown-item" href="boiler-and-pressure-plant.php">Boiler and Pressure Plant</a></li>
+                                    <li><a class="dropdown-item" href="commercial-vehicle.php">Commercial Vehicle</a></li>
+                                    <li><a class="dropdown-item" href="housebreaking-insurance.php">Housebreaking Insurance</a></li>
+                                    <li><a class="dropdown-item" href="liability-insurance.php">Liability Insurance</a></li>
+                                    <li><a class="dropdown-item border-none" href="two-wheeler-insurance.php">Two Wheeler Insurance</a></li>
+                                </ul>
                             </li>
+                            
                             <li class="nav-item">
                                 <a class="nav-link" href="blog.php">Blog</a>
                             </li>

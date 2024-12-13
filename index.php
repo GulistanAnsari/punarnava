@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-sm-6 pe-5">
-                <h2 class="mb-3">About <span>US</span></h2>
+                <h2 class="mb-3 mt-2">About <span>US</span></h2>
                 <p>The company was originally started by Mr. Dinesh Samant in 2020 at Udupi in Karnataka. We are specialized mainly into corporate, fire, health, burglary and related insurance policies. We have a team of experienced insurance professionals who are ready to serve with the best suitable policy for your requirements.</p>
                 <a href="javascript:;" class="btn">Read more</a>
             </div>
@@ -46,7 +46,7 @@
             <div class="col-sm-6">
                 <span class="green-loc">20 years of Legacy</span>
             </div>
-            <div class="col-sm-6 text-sm-end">
+            <div class="col-sm-6 text-end mobile-margin">
                 <span class="blue-loc">Customer-centric Service</span>
             </div>
             <div class="col-sm-12 mt-5 mb-5 text-center center-div">
@@ -55,7 +55,7 @@
             <div class="col-sm-6">
                 <span class="blue-loc">Tailored Approach</span>
             </div>
-            <div class="col-sm-6 text-sm-end">
+            <div class="col-sm-6 text-end mobile-margin">
                 <span class="green-loc">Smooth Claim Assistance</span>
             </div>
         </div>
@@ -141,7 +141,7 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
     </div>
- </section>
+</section>
 <!-- Our Insurance End -->
 
 
@@ -158,15 +158,15 @@
 </section>
 
 <section class="industry-expertise">
-    <div class="swiper industry-expertise-slider mt-4 pb-5">
+    <div class="swiper industry-expertise-slider mt-4">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="industry-expertise-item text-center">
-                            <div class="expertise-item expertise-item-1 mb-5"><img src="images/corporate.png" alt="" width="" height="" /></div>
-                            <div class="expertise-item expertise-item-2 mb-5"><div class="copy">Corporate</div></div>
-                            <div class="expertise-item expertise-item-3 mb-5"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-1"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-2"><div class="copy">Corporate</div></div>
+                            <div class="expertise-item expertise-item-3"><img src="images/corporate.png" alt="" width="" height="" /></div>
                             <div class="expertise-item expertise-item-4"><div class="copy">Fire</div></div>
                             <div class="expertise-item expertise-item-5"><img src="images/corporate.png" alt="" width="" height="" /></div>
                             <div class="expertise-item expertise-item-6"><div class="copy">Burglary</div></div>
@@ -178,9 +178,9 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="industry-expertise-item text-center">
-                            <div class="expertise-item expertise-item-1 mb-5"><img src="images/corporate.png" alt="" width="" height="" /></div>
-                            <div class="expertise-item expertise-item-2 mb-5"><div class="copy">Corporate</div></div>
-                            <div class="expertise-item expertise-item-3 mb-5"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-1"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-2"><div class="copy">Corporate</div></div>
+                            <div class="expertise-item expertise-item-3"><img src="images/corporate.png" alt="" width="" height="" /></div>
                             <div class="expertise-item expertise-item-4"><div class="copy">Fire</div></div>
                             <div class="expertise-item expertise-item-5"><img src="images/corporate.png" alt="" width="" height="" /></div>
                             <div class="expertise-item expertise-item-6"><div class="copy">Burglary</div></div>
@@ -212,7 +212,7 @@
 
 
 <!-- Get In Touch Start -->
-<section class="get-in-touch">
+<section class="get-in-touch ">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-sm-8 text-center">

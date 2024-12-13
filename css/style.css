@@ -352,9 +352,9 @@ header {
 /* Banner End */
 
 /* about start */
-.about .btn {
+/* .about .btn {
     font-size: 16px;
-}
+} */
 
 .about-sec img {
     position: relative;
@@ -541,6 +541,7 @@ header {
 
 .expertise-item {
     position: relative;
+    padding: 30px 0;
 }
 
 .industry-expertise-item .copy {
@@ -578,6 +579,9 @@ header {
     grid-area: 2 / 5 / 3 / 7;
 }
 
+.industry-expertise-slider{
+    padding-bottom: 80px;
+}
 .industry-expertise-slider .swiper-button-next {
     right: 45%;
 }
@@ -935,6 +939,7 @@ footer h4 {
     color: var(--white-color);
     font-size: 18px;
     margin: 40px 0 30px 0;
+    font-weight: 700;
 }
 
 footer ul li {
@@ -1034,6 +1039,10 @@ footer .input-group .input-group-text {
     transition: left 1s ease-in-out;
 }
 
+.prfile-caption h4 {
+    color: var(--white-color);
+    margin-bottom: 10px;
+}
 .prfile-caption p {
     color: var(--white-color);
 }
@@ -1076,11 +1085,11 @@ footer .input-group .input-group-text {
     color: var(--white-color);
 }
 .value .value-card:hover{
-    background: var(--white-color);
+    background: var(--green-bg);
 }
 .value .value-card:hover h3,
 .value .value-card:hover p{
-    color: var(--blue-text);
+    color: var(--white-color);
 }
 /* Value End */
 

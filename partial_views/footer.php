@@ -58,7 +58,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 mt-5">
-                    <p class="text-white mb-0">© 2024 Punarnava Insurance Broking Pvt Ltd</p>
+                    <p class="text-white mb-0">© 2024 Punarnava Insurance Broking Pvt Ltd.</p>
                 </div>
                 
             </div>
