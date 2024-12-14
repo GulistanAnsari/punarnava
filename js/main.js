@@ -102,50 +102,152 @@ $( document ).ready(function() {
     });
 
 
-    const testimonials = new Swiper(".testimonials-slider", {
-        slidesPerView: 1, 
-        spaceBetween: 20, 
-        centeredSlides: true, 
-        loop: true, 
-        slideToClickedSlide: true, 
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+    // const testimonials = new Swiper(".testimonials-slider", {
+    //     slidesPerView: 1, 
+    //     spaceBetween: 20, 
+    //     centeredSlides: true, 
+    //     loop: true, 
+    //     slideToClickedSlide: true, 
+    //     pagination: {
+    //         el: '.swiper-pagination',
+    //         clickable: true,
+    //       },
+    //     navigation: {
+    //         nextEl: '.swiper-button-next',
+    //         prevEl: '.swiper-button-prev',
+    //     },
     
-        breakpoints: {
-            767: {
-                slidesPerView: 1, 
-                spaceBetween: 10,
-            },
-            768: {
-                slidesPerView: 1, 
-                spaceBetween: 10
-            },
-            1024: {
-                slidesPerView: 2,
-                spaceBetween: 15
-            }
-        }
-    });
+    //     breakpoints: {
+    //         767: {
+    //             slidesPerView: 1, 
+    //         },
+    //         768: {
+    //             slidesPerView: 1, 
+    //             spaceBetween: 10
+    //         },
+    //         1024: {
+    //             slidesPerView: 2,
+    //             spaceBetween: 15
+    //         }
+    //     }
+    // });
+
+
+
+    // Initialize Swiper
+// Initialize Swiper
+
+
+
+// Initialize Swiper
+const testimonials = new Swiper(".testimonials-slider", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    centeredSlides: true,
+    allowTouchMove: false,
+    loop: true,
+    slideToClickedSlide: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        767: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        1024: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+    },
+});
+
+// Function to animate the active slide
+const animateActiveSlide = () => {
+    // Reset all testimonials boxes
+    const allBoxes = document.querySelectorAll(".testimonials-box");
+    gsap.set(allBoxes, { opacity: 0, x: "-10%" });
+
+    // Animate only the active box
+    const activeBox = document.querySelector(".swiper-slide-active .testimonials-box");
+    if (activeBox) {
+        gsap.to(activeBox, {
+            opacity: 1,
+            x: "0%",
+            duration: 2,
+            ease: "power2.out",
+        });
+    }
+};
+
+
+
+// Trigger animation when `.testimonials-sec` enters the viewport (first time)
+gsap.registerPlugin(ScrollTrigger);
+
+ScrollTrigger.create({
+    trigger: ".testimonials-sec",
+    start: "top 80%", // Start animation when 80% of the section is visible
+    onEnter: () => {
+        // Trigger GSAP animation for the first active slide
+        animateActiveSlide();
+
+        // Optional: Add section-wide animation (fade-in, etc.)
+        gsap.from(".testimonials-sec", {
+            opacity: 0,
+            y: 50,
+            duration: 2,
+            ease: "power2.out",
+        });
+    },
+});
+
+// Trigger animation on Swiper slide change
+testimonials.on("slideChangeTransitionStart", () => {
+    animateActiveSlide();
+});
+
+// Initial animation for the first visible slide (when the page loads)
+document.addEventListener("DOMContentLoaded", () => {
+    animateActiveSlide();
+});
+
+
+
+
+
+
+// Trigger animation on slide change
+testimonials.on("slideChangeTransitionStart", () => {
+    animateActiveSlide();
+});
+
+// Initial animation on page load
+document.addEventListener("DOMContentLoaded", () => {
+    animateActiveSlide();
+});
+
+
+
 
 
     const industry = new Swiper(".industry-expertise-slider", {
         slidesPerView: 1, 
         spaceBetween: 20, 
-        // centeredSlides: true, 
         loop: true, 
         slideToClickedSlide: false, 
-        
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
-    
         breakpoints: {
             767: {
                 slidesPerView: 1, 
@@ -162,10 +264,12 @@ $( document ).ready(function() {
         }
     });
 
+
+
     let SwiperTop = new Swiper('.marquee-slider', {
         spaceBetween: 0,
         // centeredSlides: true,
-        slidesPerView: 3,
+        slidesPerView: 1,
         speed: 10000,
         autoplay: {
           delay: 100,
@@ -206,7 +310,7 @@ $( document ).ready(function() {
       // });
 
       var services = new Swiper(".services-slider", {
-        slidesPerView: 3,
+        slidesPerView: 1,
         spaceBetween: 30,
         pagination: {
           el: ".swiper-pagination",
@@ -218,7 +322,7 @@ $( document ).ready(function() {
                 spaceBetween: 10,
             },
             768: {
-                slidesPerView: 2, 
+                slidesPerView: 3, 
                 spaceBetween: 10
             }
         }
@@ -274,6 +378,39 @@ $( document ).ready(function() {
 });
 
 
+  gsap.to(".blue-horizontal", {
+    width: "20%", 
+    duration: 2, 
+    scrollTrigger: {
+        trigger: ".animation-tri-blue",
+        start: "top 50%", 
+        end: "bottom 50%", 
+        toggleActions: "play none none reverse", 
+    }
+});
+
+  gsap.to(".green-vertical", {
+    height: "100%", 
+    duration: 2, 
+    scrollTrigger: {
+        trigger: ".blog-about",
+        start: "top 100%", 
+        end: "bottom 100%", 
+        toggleActions: "play none none reverse", 
+    }
+});
+  gsap.to(".blue-vertical", {
+    height: "60%", 
+    duration: 2, 
+    scrollTrigger: {
+        trigger: ".blog-about",
+        start: "top 100%", 
+        end: "bottom 100%", 
+        toggleActions: "play none none reverse", 
+    }
+});
+
+
 
   //   gsap.to(".x-line", {
   //     width: "20%", 
@@ -293,9 +430,9 @@ $( document ).ready(function() {
     document.querySelectorAll(".img-animation").forEach((e) => {
         gsap.from(e, { y: "-10%",  duration: 2, scrollTrigger: { trigger: e, start: "top 100%", toggleActions: "play none none reverse" } });
       });
-    document.querySelectorAll(".testimonials-box").forEach((e) => {
-        gsap.from(e, { x: "-10%",  duration: 1, scrollTrigger: { trigger: e, start: "left 80%", toggleActions: "play none none reverse" } });
-      });
+    // document.querySelectorAll(".testimonials-box").forEach((e) => {
+    //     gsap.from(e, { x: "-10%",  duration: 1, scrollTrigger: { trigger: e, start: "left 80%", toggleActions: "play none none reverse" } });
+    //   });
 
 
 
@@ -323,7 +460,10 @@ $( document ).ready(function() {
       });
     });
 
-    // Animation for the left-line
+    
+    
+    document.addEventListener("DOMContentLoaded", () => {
+        // Animation for the left-line
     gsap.to(".vertical-line", {
         height: "100%", // Target height
         duration: 2, // Animation lasts 2 seconds
@@ -367,4 +507,26 @@ $( document ).ready(function() {
             toggleActions: "play none none reverse", // Controls the behavior on scroll
         }
     });
+});
+
+
+
+
+
+  document.querySelectorAll(".blog-img, .blog-card, .policies-item, .expertise-item, .vision-mission, .card, .figure").forEach((e) => {
+    gsap.from(e, { y: "5%", opacity: 0, duration: 2, ease: "power1.out", scrollTrigger: { trigger: e, start: "top 80%", toggleActions: "play none none reverse" } });
+  });
+
+
+  document.querySelectorAll(".vision-img").forEach((e) => {
+    gsap.from(e, { y: "-5%", opacity: 0, duration: 2, ease: "power1.out", scrollTrigger: { trigger: e, start: "top 80%", toggleActions: "play none none reverse" } });
+  });
+
+  document.querySelectorAll(".choose-item").forEach((e) => {
+    gsap.from(e, { x: "-10%", opacity: 0, duration: 2, ease: "power1.out", scrollTrigger: { trigger: e, start: "top 80%", toggleActions: "play none none reverse" } });
+  });
+
+
+
+
 });

@@ -24,7 +24,7 @@
         </div>
         </form>
     </div>
-    <div class="col-sm-6 p-0 ps-5">
+    <div class="col-sm-6 p-0 ps-5 d-none d-sm-block">
         <img src="images/about-form.png" class="img-fluid" alt="" width="" height="" />
     </div>
 </div>

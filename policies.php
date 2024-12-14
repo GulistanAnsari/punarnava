@@ -3,7 +3,10 @@
 
 <!-- inner banner start -->
  <section class="inner-banner p-0">
-    <img src="images/banner/blog-banner.jpg" alt="" width="" height="" />
+    <picture>
+        <source media="(max-width:767px)" srcset="https://placehold.jp/400x250.png" />
+        <img src="images/banner/blog-banner.jpg" alt="" width="" height="" />
+    </picture>
     <h2 class="text">Policies</h2>
  </section>
 <!-- inner banner end -->
@@ -21,52 +24,52 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="policies-item">
                     <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="policies-item">
                     <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="policies-item">
                     <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="policies-item">
                     <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="policies-item">
                     <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="policies-item">
                     <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="policies-item">
                     <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="policies-item">
                     <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="policies-item">
                     <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="policies-item">
                     <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
                 </div>

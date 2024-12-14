@@ -3,18 +3,22 @@
 
 <!-- inner banner start -->
  <section class="inner-banner p-0">
-    <img src="images/banner/blog-banner.jpg" alt="" width="" height="" />
+    <picture>
+        <source media="(max-width:767px)" srcset="https://placehold.jp/400x250.png" />
+        <img src="images/banner/blog-banner.jpg" alt="" width="" height="" />
+    </picture>
     <h2 class="text">Services</h2>
  </section>
 <!-- inner banner end -->
 
 <!-- Overview Start -->
 <section class="overview">
-    <span class="blue-horizontal-bg"></span>
+    <!-- <span class="blue-horizontal-bg"></span> -->
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 pe-5 mt-4">
-                <h2 class="mb-3"><span class="text-white">Comprehensive Insurance</span> Solutions for Every Need</h2>
+                <!-- <h2 class="mb-3"><span class="text-white">Comprehensive Insurance</span> Solutions for Every Need</h2> -->
+                <h2 class="mb-3">Comprehensive Insurance Solutions for Every Need</h2>
                 <p class="mt-5">At Punarnava Insurance, we understand that every individual and business has unique requirements. Our services are designed to provide tailored insurance solutions that offer financial security and peace of mind. From safeguarding your family’s future to protecting your business assets, we bring expertise, reliability, and a customer-first approach to ensure you’re covered when it matters the most. Explore our wide range of services and experience insurance, redefined.</p>
             </div>
         </div>

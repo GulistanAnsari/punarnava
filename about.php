@@ -3,7 +3,10 @@
 
 <!-- inner banner start -->
  <section class="inner-banner p-0">
-    <img src="images/banner/about-us-banner.jpg" alt="" width="" height="" />
+    <picture>
+        <source media="(max-width:767px)" srcset="https://placehold.jp/400x250.png" />
+        <img src="images/banner/about-us-banner.jpg" alt="" width="" height="" />
+    </picture>
     <h2 class="text">About Us</h2>
  </section>
 <!-- inner banner end -->
@@ -12,6 +15,7 @@
 <!-- Overview Start -->
 <section class="about animation-tri">
 <span class="green-horizontal horizontal-animation"></span>
+<!-- <span class="green-horizontal horizontal-animation"></span> -->
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12 pe-5 mt-4">
@@ -37,6 +41,7 @@
         <div class="col-sm-4">
           <div class="card">
             <div class="prfile-caption">
+              <h4>Lorem ipsum dolor</h4>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
             <img src="images/our-leadership-thumb.png" class="img-fluid" alt="" width="" height="" />
@@ -45,7 +50,8 @@
         <div class="col-sm-4">
           <div class="card">
             <div class="prfile-caption">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <h4>Lorem ipsum dolor</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
             <img src="images/our-leadership-thumb.png" class="img-fluid" alt="" width="" height="" />
           </div>
@@ -53,7 +59,8 @@
         <div class="col-sm-4">
           <div class="card">
             <div class="prfile-caption">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <h4>Lorem ipsum dolor</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
             <img src="images/our-leadership-thumb.png" class="img-fluid" alt="" width="" height="" />
           </div>
@@ -61,7 +68,8 @@
         <div class="col-sm-4">
           <div class="card">
             <div class="prfile-caption">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <h4>Lorem ipsum dolor</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
             <img src="images/our-leadership-thumb.png" class="img-fluid" alt="" width="" height="" />
           </div>
@@ -69,7 +77,8 @@
         <div class="col-sm-4">
           <div class="card">
             <div class="prfile-caption">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <h4>Lorem ipsum dolor</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
             </div>
             <img src="images/our-leadership-thumb.png" class="img-fluid" alt="" width="" height="" />
           </div>
@@ -127,12 +136,12 @@
           <div class="vision-mission-item">
             <img src="images/our-mission.svg" class="img-fluid" alt="" width="" height="" />
             <h3>Our Mission</h3>
-            <p>Our mission is to provide innovative and tailored insurance solutions that empower individuals and businesses to achieve their aspirations with confidence. At Punarnava Insurance, we are committed to ensuring financial security and peace of mind, helping our clients navigate life's uncertainties and thrive without compromise</p>
+            <p class="mb-0">Our mission is to provide innovative and tailored insurance solutions that empower individuals and businesses to achieve their aspirations with confidence. At Punarnava Insurance, we are committed to ensuring financial security and peace of mind, helping our clients navigate life's uncertainties and thrive without compromise</p>
           </div>
         </div>
       </div>
       <div class="col-sm-6">
-        <img src="images/our-vision-mission.jpg" class="img-fluid" alt="" width="" height="" />
+        <img src="images/our-vision-mission.jpg" class="img-fluid vision-img" alt="" width="" height="" />
       </div>
     </div>
   </div>
@@ -140,7 +149,7 @@
 <!-- Vision and Mission end -->
 
 <!-- Form start -->
-<section class="mb-5 animation-tri">
+<section class="mb-5 animation-tri-blue">
     <span class="blue-horizontal horizontal-animation"></span>
     <div class="container">
         <div class="row">

@@ -6,7 +6,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="choose-item">
                     <img src="images/personalized-policies.svg" class="img-fluid" alt="" width="" height="" />
                     <p><b>Personalized Policies</b></p>
@@ -14,7 +14,7 @@
                     <a href="javascript:;">Learn More</a>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="choose-item">
                     <img src="images/diversification.svg" class="img-fluid" alt="" width="" height="" />
                     <p><b>Diversification</b></p>
@@ -22,7 +22,7 @@
                     <a href="javascript:;">Discover More</a>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="choose-item">
                     <img src="images/expert-oversight.svg" class="img-fluid" alt="" width="" height="" />
                     <p><b>Expert Oversight</b></p>
@@ -30,7 +30,7 @@
                     <a href="javascript:;">Get Assistance</a>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 col-6">
                 <div class="choose-item">
                     <img src="images/market-expertise.svg" class="img-fluid" alt="" width="" height="" />
                     <p><b>Market Expertise</b></p>

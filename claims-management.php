@@ -12,7 +12,7 @@
 <section class="overview">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-12 pe-5 mt-4">
+            <div class="col-lg-12 pe-5 mt-4 padding-m-0">
                 <h2 ><span class="text-blue">Claims Management</h2>
                 <p class="mt-5">Litmus test of any policy is the claim. Interpretation of policy wordings and application of the same to the claim requires in-depth knowledge of the policy, understanding of the nature of the claim, cause of the claim and ascertaining the admissibility of claim. Punarnava personnel have adequate necessary experience/expertise to manage large and complex insurance claims in the fields of marine, fire, engineering, project insurance, property, consequential losses, liability etc.</p>
             </div>

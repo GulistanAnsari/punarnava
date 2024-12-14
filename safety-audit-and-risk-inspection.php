@@ -12,7 +12,7 @@
 <section class="overview">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-12 pe-5 mt-4">
+            <div class="col-lg-12 pe-5 mt-4 padding-m-0">
                 <h2 ><span class="text-blue">Safety Audit and Risk Inspection</h2>
                 <p class="mt-5">A comprehensive study of all the likely exposures due to electrical faults, storage, and other hazards associated with industries. Safety Audit is a statutory requirement under the Factories Act. Bureau of Indian Standard (BIS) have developed a code for Occupational Health and Safety called IS 14489. Punarnava has expertise in auditing for the requirements of this questionnaire.</p>
             </div>

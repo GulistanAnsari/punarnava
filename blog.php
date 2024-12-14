@@ -3,7 +3,10 @@
 
 <!-- inner banner start -->
  <section class="inner-banner p-0">
-    <img src="images/banner/blog-banner.jpg" alt="" width="" height="" />
+   <picture>
+      <source media="(max-width:767px)" srcset="https://placehold.jp/400x250.png" />
+      <img src="images/banner/blog-banner.jpg" alt="" width="" height="" />
+   </picture>
     <h2 class="text">Blog</h2>
  </section>
 <!-- inner banner end -->
@@ -12,12 +15,10 @@
 <section class="about blog-about">
    <span class="blue-horizontal float-end"></span>
    
-   
    <div class="container position-relative">
       <span class="blue-vertical"></span>
        <div class="row align-items-center mt-4">
          <div class="col-sm-6 blue-vertical-left position-relative">
-            
             <div class="about-sec position-relative">
                <img src="images/about.png" class="img-fluid img-animation" alt="" width="" height="" />
                <div class="blue-bg"></div>
@@ -91,33 +92,33 @@
 </section>
 <!-- Blog-Insurance End -->
 
-<section>
+<section class="blog-Services">
    <div class="container">
       <div class="row">
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-6">
           <div class="blog-img">
             <img src="images/blog/img1.png" class="img-fluid" alt="" width="" height="" />
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-6">
           <div class="blog-img">
             <img src="images/blog/img2.png" class="img-fluid" alt="" width="" height="" />
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-6">
           <div class="blog-img">
             <img src="images/blog/img3.png" class="img-fluid" alt="" width="" height="" />
           </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 col-6">
           <div class="blog-img">
             <img src="images/blog/img4.png" class="img-fluid" alt="" width="" height="" />
           </div>
         </div>
       </div>
    </div>
-   <div class="container">
-      <div class="row mt-4 flex-column-reverse flex-md-row">
+   <div class="container green-vertical-ani">
+      <div class="row mt-4 flex-column-reverse flex-md-row mobile-m-0">
         <div class="col-sm-9">
           <div class="services-offer position-relative ">
             <h2>Services we offer</h2>
@@ -132,12 +133,18 @@
             </ul>
           </div>
         </div>
-        <div class="col-sm-3">
-          <div class="blog-img mb-4">
-            <img src="images/blog/img5.png" class="img-fluid" alt="" width="" height="" />
-          </div>
-          <div class="blog-img">
-            <img src="images/blog/img6.png" class="img-fluid" alt="" width="" height="" />
+        <div class="col-sm-3 p-0">
+          <div class="row">
+            <div class="col-sm-12 col-6">
+               <div class="blog-img mb-4">
+                  <img src="images/blog/img5.png" class="img-fluid" alt="" width="" height="" />
+                </div>
+            </div>
+            <div class="col-sm-12 col-6">
+               <div class="blog-img mb-4">
+                  <img src="images/blog/img6.png" class="img-fluid" alt="" width="" height="" />
+                </div>
+            </div>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@
 <section class="overview">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-12 pe-5 mt-4">
+            <div class="col-lg-12 pe-5 mt-4 padding-m-0">
                 <h2 ><span class="text-blue">Insurance Audits and Advisory</h2>
                 <p class="mt-5">Punarnava carries out an audit of the client’s insurance portfolio on a regular basis which involves analyzing existing insurance covers in terms of risk gap analysis, premium ratings. discounts eligible and allowed, additional clauses, extensions, self-insurance techniques etc. and making recommendations about amendments to coverages, new covers etc. Punarnava also liaises with the Insurance Companies, Insurance Regulatory and Development Authority (IRDA) and several other bodies for these purposes on behalf of clients.</p>
             </div>

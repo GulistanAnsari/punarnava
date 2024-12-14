@@ -12,7 +12,7 @@
 <section class="overview">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-12 pe-5 mt-4">
+            <div class="col-lg-12 pe-5 mt-4 padding-m-0">
                 <h2 ><span class="text-blue">Risk Evaluation and Transfer Mechanism</h2>
                 <p class="mt-5">Risk Evaluation comprises of Risk Identification, Risk Analysis, Risk Mitigation and Risk Minimization. Based on Risk evaluation and Risk Retention, the Risk Transfer mechanism shall be developed. In other words what, when, how much, why and where to insure shall be addressed under Risk Transfer.</p>
             </div>
