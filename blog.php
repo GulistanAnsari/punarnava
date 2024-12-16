@@ -12,7 +12,7 @@
 <!-- inner banner end -->
 
 <!-- About Us Start -->
-<section class="about blog-about">
+<section class="about blog-about animation-tri-blue">
    <span class="blue-horizontal float-end"></span>
    
    <div class="container position-relative">

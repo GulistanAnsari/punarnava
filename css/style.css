@@ -145,11 +145,14 @@ img {
     height: 0;
     float: left;
     position: absolute;
-    left: -5%;
+    left: 0%;
     top: 40%;
     transform: translateY(-40%);
     width: 15px;
     transition: height 1s ease;
+}
+.blog-about .blue-vertical{
+    left: -5%;
 }
 .vertical-line-inner{
     transform: translateY(-50%);

@@ -27,7 +27,7 @@
 <!-- Overview end -->
 
 <!-- About Us Start -->
-<section class="about p-0 animaton-blue">
+<section class="about p-0 animaton-blue-left">
     <span class="blue-vertical vertical-line"></span>
     <div class="container">
         <div class="row align-items-center">
@@ -154,10 +154,12 @@
 
 
 <!-- Form start -->
-<section class="pt-0">
+<section class="pt-0 animaton-blue">
+    <span class="left-line"></span>
     <div class="container">
         <?php include 'partial_views/footer-form.php';?>
     </div>
+    <span class="right-line"></span>
 </section>
 <!-- Form End -->
 
