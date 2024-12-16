@@ -3,7 +3,10 @@
 
 <!-- inner banner start -->
  <section class="inner-banner p-0">
-    <img src="images/banner/blog-banner.jpg" alt="" width="" height="" />
+    <picture>
+        <source media="(max-width:767px)" srcset="images/banner/risk-evaluation-and-transfer-mechanism-mobile.png" />
+        <img src="images/banner/risk-evaluation-and-transfer-mechanism-desktop.png" alt="" width="1440" height="250" />
+    </picture>
     <h2 class="text">Risk Evaluation and Transfer Mechanism</h2>
  </section>
 <!-- inner banner end -->
@@ -33,7 +36,7 @@
             </div>
             <div class="col-sm-5">
                 <div class="about-sec position-relative">
-                    <img src="images/about.png" class="img-fluid img-animation" alt="" width="" height="" />
+                <img src="images/overview/risk-evaluation-and-transfer-mechanism.png" class="img-fluid img-animation" alt="" width="487" height="527" />
                     <div class="blue-bg"></div>
                 </div>
             </div>
@@ -46,103 +49,11 @@
 <?php include 'partial_views/Why_Choose_Us.php';?>
 <!-- Why Choose Us? end -->
 
-<section class="title-two pb-0">
-    <div class="container">
-        <div class="row position-relative">
-            <div class="col-sm-12">
-                <h2>Lorem </h2>
-            </div>
-        </div>
-    </div>
-</section>
 
-
-<!-- marquee-slider STart -->
-<section class="services text-normal">
-    <div class="swiper-container marquee-slider">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="d-flex gap-3 mb-3">
-                            <div class="services-box">
-                                <span><img src="images/consulting.png" alt="" width="" height="" /></span>
-                                <p class="mb-0">Consulting</p>
-                            </div>
-                            <div class="services-box">
-                                <span><img src="images/support.png" alt="" width="" height="" /></span>
-                                <p class="mb-0">Support</p>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-end gap-3">
-                            <div class="services-box">
-                                <span><img src="images/development.png" alt="" width="" height="" /></span>
-                                <p class="mb-0">Development</p>
-                            </div>
-                            <div class="services-box">
-                                <span><img src="images/Design.png" alt="" width="" height="" /></span>
-                                <p class="mb-0">Design</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>            
-            <div class="swiper-slide">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="d-flex gap-3 mb-3">
-                            <div class="services-box">
-                                <span><img src="images/consulting.png" alt="" width="" height="" /></span>
-                                <p class="mb-0">Consulting</p>
-                            </div>
-                            <div class="services-box">
-                                <span><img src="images/support.png" alt="" width="" height="" /></span>
-                                <p class="mb-0">Support</p>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-end gap-3">
-                            <div class="services-box">
-                                <span><img src="images/development.png" alt="" width="" height="" /></span>
-                                <p class="mb-0">Development</p>
-                            </div>
-                            <div class="services-box">
-                                <span><img src="images/Design.png" alt="" width="" height="" /></span>
-                                <p class="mb-0">Design</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-            <div class="swiper-slide">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="d-flex gap-3 mb-3">
-                            <div class="services-box">
-                                <span><img src="images/consulting.png" alt="" width="" height="" /></span>
-                                <p class="mb-0">Consulting</p>
-                            </div>
-                            <div class="services-box">
-                                <span><img src="images/support.png" alt="" width="" height="" /></span>
-                                <p class="mb-0">Support</p>
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-end gap-3">
-                            <div class="services-box">
-                                <span><img src="images/development.png" alt="" width="" height="" /></span>
-                                <p class="mb-0">Development</p>
-                            </div>
-                            <div class="services-box">
-                                <span><img src="images/Design.png" alt="" width="" height="" /></span>
-                                <p class="mb-0">Design</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> 
-        </div>
-    </div>
-</section>
-<!-- marquee-slider End -->
+<!-- Marquee Start -->
+<?php include 'partial_views/marquee-slider.php';?>
+<!-- Marquee end -->
+ 
 
 <!-- Services Slider STart -->
 <section>
@@ -155,7 +66,7 @@
                             <figure class="figure">
                                 <a href="portfolio-management.php" class="zoom-effect">
                                     <div class="zoom-img">
-                                        <img src="images/services/portfolio-management.jpg" class="img-fluid" alt="" width="" height="" />
+                                        <img src="images/services/portfolio-management.jpg" class="img-fluid" alt="" width="410" height="259" />
                                     </div>
                                     <figcaption class="figure-caption">
                                     <h3 class="mb-3">Portfolio Management</h3>
@@ -168,7 +79,7 @@
                             <figure class="figure">
                             <a href="insurance-audits-and-advisory.php" class="zoom-effect">
                                 <div class="zoom-img">
-                                    <img src="images/services/insurance-audits-and-advisory.jpg" class="img-fluid" alt="" width="" height="" />
+                                    <img src="images/services/insurance-audits-and-advisory.jpg" class="img-fluid" alt="" width="410" height="259" />
                                 </div>
                                 <figcaption class="figure-caption">
                                 <h3 class="mb-3">Insurance Audits and Advisory</h3>
@@ -181,7 +92,7 @@
                             <figure class="figure">
                             <a href="valuation-of-assets.php" class="zoom-effect">
                                 <div class="zoom-img">
-                                    <img src="images/services/valuation-of-assets.jpg" class="img-fluid" alt="" width="" height="" />
+                                    <img src="images/services/valuation-of-assets.jpg" class="img-fluid" alt="" width="410" height="259" />
                                 </div>
                                 <figcaption class="figure-caption">
                                 <h3 class="mb-3">Valuation of Assets</h3>
@@ -194,7 +105,7 @@
                             <figure class="figure">
                             <a href="claims-management.php" class="zoom-effect">
                                 <div class="zoom-img">
-                                    <img src="images/services/claims-management.jpg" class="img-fluid" alt="" width="" height="" />
+                                    <img src="images/services/claims-management.jpg" class="img-fluid" alt="" width="410" height="259" />
                                 </div>
                                 <figcaption class="figure-caption">
                                 <h3 class="mb-3">Claims Management</h3>
@@ -207,7 +118,7 @@
                             <figure class="figure">
                             <a href="safety-audit-and-risk-inspection.php" class="zoom-effect">
                                 <div class="zoom-img">
-                                    <img src="images/services/safety-audit-and-risk-inspection.jpg" class="img-fluid" alt="" width="" height="" />
+                                    <img src="images/services/safety-audit-and-risk-inspection.jpg" class="img-fluid" alt="" width="410" height="259" />
                                 </div>
                                 <figcaption class="figure-caption">
                                 <h3 class="mb-3">Safety Audit and Risk Inspection</h3>

@@ -4,8 +4,8 @@
 <!-- inner banner start -->
  <section class="inner-banner p-0">
     <picture>
-        <source media="(max-width:767px)" srcset="https://placehold.jp/400x250.png" />
-        <img src="images/banner/blog-banner.jpg" alt="" width="" height="" />
+        <source media="(max-width:767px)" srcset="images/banner/policies-mobile.png" />
+        <img src="images/banner/policies-desktop.png" alt="" width="1440" height="250" />
     </picture>
     <h2 class="text">Policies</h2>
  </section>
@@ -26,52 +26,52 @@
         <div class="row">
             <div class="col-sm-3 col-6">
                 <div class="policies-item">
-                    <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/policies/boiler-and-pressure-plant.png" class="img-fluid" alt="" width="228" height="280" />
                 </div>
             </div>
             <div class="col-sm-3 col-6">
                 <div class="policies-item">
-                    <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/policies/burglary.png" class="img-fluid" alt="" width="228" height="280" />
                 </div>
             </div>
             <div class="col-sm-3 col-6">
                 <div class="policies-item">
-                    <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/policies/commercial-vehicle.png" class="img-fluid" alt="" width="228" height="280" />
                 </div>
             </div>
             <div class="col-sm-3 col-6">
                 <div class="policies-item">
-                    <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/policies/family-health.png" class="img-fluid" alt="" width="228" height="280" />
                 </div>
             </div>
             <div class="col-sm-3 col-6">
                 <div class="policies-item">
-                    <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/policies/fire-and-allied-perils.png" class="img-fluid" alt="" width="228" height="280" />
                 </div>
             </div>
             <div class="col-sm-3 col-6">
                 <div class="policies-item">
-                    <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/policies/house-breaking-insurance.png" class="img-fluid" alt="" width="228" height="280" />
                 </div>
             </div>
             <div class="col-sm-3 col-6">
                 <div class="policies-item">
-                    <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/policies/individual-health.png" class="img-fluid" alt="" width="228" height="280" />
                 </div>
             </div>
             <div class="col-sm-3 col-6">
                 <div class="policies-item">
-                    <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/policies/liability-insurance.png" class="img-fluid" alt="" width="228" height="280" />
                 </div>
             </div>
             <div class="col-sm-3 col-6">
                 <div class="policies-item">
-                    <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/policies/marine-cargo-insurance.png" class="img-fluid" alt="" width="228" height="280" />
                 </div>
             </div>
             <div class="col-sm-3 col-6">
                 <div class="policies-item">
-                    <img src="images/policies-img.jpg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/policies/two-wheeler-insurance.png" class="img-fluid" alt="" width="228" height="280" />
                 </div>
             </div>
         </div>

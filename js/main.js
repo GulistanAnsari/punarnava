@@ -378,6 +378,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+
+
   gsap.to(".blue-horizontal", {
     width: "20%", 
     duration: 2, 
@@ -399,7 +401,14 @@ document.addEventListener("DOMContentLoaded", () => {
         toggleActions: "play none none reverse", 
     }
 });
-  gsap.to(".blue-vertical", {
+
+
+
+
+
+
+
+gsap.to(".blue-vertical", {
     height: "60%", 
     duration: 2, 
     scrollTrigger: {
@@ -412,21 +421,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-  //   gsap.to(".x-line", {
-  //     width: "20%", 
-  //     duration: 2, 
-  //     scrollTrigger: {
-  //         trigger: ".form-div",
-  //         start: "top 100%", 
-  //         end: "bottom 100%", 
-  //         toggleActions: "play pause resume reset", 
-  //     }
-  // });
-   
 
     document.querySelectorAll(".blue-bg").forEach((e) => {
         gsap.from(e, { x: "10%",  duration: 4, scrollTrigger: { trigger: e, start: "left 90%", toggleActions: "play none none reverse" } });
       });
+
     document.querySelectorAll(".img-animation").forEach((e) => {
         gsap.from(e, { y: "-10%",  duration: 2, scrollTrigger: { trigger: e, start: "top 100%", toggleActions: "play none none reverse" } });
       });

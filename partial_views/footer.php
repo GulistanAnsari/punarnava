@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 border-bottom pb-4 text-center">
-                    <img src="images/footer-logo.svg" class="w-auto" alt="" width="" height="" />
+                    <img src="images/footer-logo.svg" class="w-auto" alt="" width="180" height="83" />
                 </div>
             </div>
             <div class="row">

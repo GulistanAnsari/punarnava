@@ -3,7 +3,10 @@
 
 <!-- inner banner start -->
  <section class="inner-banner p-0">
-    <img src="images/banner/blog-banner.jpg" alt="" width="" height="" />
+    <picture>
+      <source media="(max-width:767px)" srcset="images/banner/housebreaking-insurance-mobile.png" />
+      <img src="images/banner/housebreaking-insurance-desktop.png" alt="" width="1440" height="250" />
+    </picture>
     <h2 class="text">Housebreaking Insurance</h2>
  </section>
 <!-- inner banner end -->

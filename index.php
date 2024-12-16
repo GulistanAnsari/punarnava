@@ -3,14 +3,14 @@
    
 <!-- banner start -->
 <section class="p-0 video-banner">
-    <video autoplay muted loop>
+    <video playsinline autoplay muted loop>
         <source src="video/home-video.mp4" type="video/mp4">
     </video>
     <!-- <img src="images/home-insider.png" class="img-fluid" alt="" width="" height="" /> -->
     <div class="banner-caption">
         <h1 class="mb-3">About Punarnava</h1>
         <p class="text-white">We are one of the leading insurance brokers specialized in corporate, burglary and related insurances.</p>
-        <a href="javascript:;" class="btn">Click Here</a>
+        <a href="about.php" class="btn">Click Here</a>
     </div>
 </section>
 <!-- banner end -->
@@ -23,11 +23,11 @@
             <div class="col-sm-6 pe-5">
                 <h2 class="mb-3 mt-2">About <span>US</span></h2>
                 <p>The company was originally started by Mr. Dinesh Samant in 2020 at Udupi in Karnataka. We are specialized mainly into corporate, fire, health, burglary and related insurance policies. We have a team of experienced insurance professionals who are ready to serve with the best suitable policy for your requirements.</p>
-                <a href="javascript:;" class="btn">Read more</a>
+                <a href="about.php" class="btn">Read more</a>
             </div>
             <div class="col-sm-6 ">
                 <div class="about-sec position-relative">
-                    <img src="images/about.png" class="img-fluid img-animation" alt="" width="" height="" />
+                    <img src="images/overview/about.png" class="img-fluid img-animation" alt="" width="487" height="527"  />
                     <div class="blue-bg"></div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
  <section class="map pb-0">
     <picture>
         <source media="(max-width:767px)" srcset="images/map-img-mobile.png" type="image/webp" />
-        <img src="images/map-img.png" alt="" width="" height="">
+        <img src="images/map-img.png" alt="" width="1440" height="293">
     </picture>
     <div class="container">
         <div class="row">
@@ -72,7 +72,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2>Our Insurance Solutions made with you in mind</h2>
+                <h2>Explore Our Insights & Expertise</h2>
                 <p>Our journey is one of continuous growth, innovation,and a relentless pursuit of excellence.</p>
             </div>
         </div>
@@ -93,14 +93,14 @@
                             </span> Learn more</a>
                     </div>
                     <div class="slide-img">
-                        <img src="images/our-insurance-img.png" class="img-fluid" alt="" width="" height="" />
+                        <img src="images/insights-expertise/corporate-insurance.png" class="img-fluid" alt="" width="210" height="167" />
                     </div>
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="inner-item d-flex align-items-center">
                     <div class="content">
-                        <h3 class="mb-2">Corporate Insurance</h3>
+                        <h3 class="mb-2">Corporate Services</h3>
                         <p>Comprehensive coverage, tailored for businesses - Safeguard your corporate assets.</p>
                         <a href="javascript:;" class="d-flex align-items-center"> 
                             <span class="rounded-pill">
@@ -110,15 +110,15 @@
                             </span> Learn more</a>
                     </div>
                     <div class="slide-img">
-                        <img src="images/our-insurance-img.png" class="img-fluid" alt="" width="" height="" />
+                        <img src="images/insights-expertise/corporate-services.png" class="img-fluid" alt="" width="210" height="167"  />
                     </div>
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="inner-item d-flex align-items-center">
                     <div class="content">
-                        <h3 class="mb-2">Corporate Insurance</h3>
-                        <p>Comprehensive coverage, tailored for businesses - Safeguard your corporate assets.</p>
+                        <h3 class="mb-2">Retail Insurance</h3>
+                        <p>Discover Plans Tailored to Your Needs.</p>
                         <a href="javascript:;" class="d-flex align-items-center"> 
                             <span class="rounded-pill">
                                 <svg width="21" height="20" viewBox="0 0 21 20" fill="" xmlns="http://www.w3.org/2000/svg">
@@ -127,16 +127,16 @@
                             </span> Learn more</a>
                     </div>
                     <div class="slide-img">
-                        <img src="images/our-insurance-img.png" class="img-fluid" alt="" width="" height="" />
+                        <img src="images/insights-expertise/retail-insurance.png" class="img-fluid" alt="" width="210" height="167"  />
                     </div>
                 </div>
             </div>
             <div class="swiper-slide">
                 <div class="inner-item d-flex align-items-center">
                     <div class="content">
-                        <h3 class="mb-2">Corporate Insurance</h3>
-                        <p>Comprehensive coverage, tailored for businesses - Safeguard your corporate assets.</p>
-                        <a href="javascript:;" class="d-flex align-items-center"> 
+                        <h3 class="mb-2">Check our Latest Blog</h3>
+                        <p>Explore our blog now!</p>
+                        <a href="blog.php" class="d-flex align-items-center"> 
                             <span class="rounded-pill">
                                 <svg width="21" height="20" viewBox="0 0 21 20" fill="" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.25 13.701C0.532561 14.1152 0.286748 15.0326 0.700962 15.75C1.11518 16.4674 2.03256 16.7133 2.75 16.299L1.25 13.701ZM20.7694 5.38823C20.9838 4.58803 20.5089 3.76552 19.7087 3.55111L6.66874 0.0570541C5.86854 -0.157359 5.04603 0.317515 4.83162 1.11771C4.61721 1.91791 5.09208 2.74042 5.89228 2.95483L17.4834 6.06066L14.3776 17.6518C14.1631 18.452 14.638 19.2745 15.4382 19.4889C16.2384 19.7033 17.0609 19.2284 17.2753 18.4282L20.7694 5.38823ZM2.75 16.299L20.0705 6.29904L18.5705 3.70096L1.25 13.701L2.75 16.299Z"/>
@@ -144,7 +144,7 @@
                             </span> Learn more</a>
                     </div>
                     <div class="slide-img">
-                        <img src="images/our-insurance-img.png" class="img-fluid" alt="" width="" height="" />
+                        <img src="images/insights-expertise/latest -blog.png" class="img-fluid" alt="" width="210" height="167"  />
                     </div>
                 </div>
             </div>
@@ -161,8 +161,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2>Industry Expertise that speaks for itself</h2>
-                <p class="pb-0 mb-0">Leveraging Decades of Expertise Across Diverse Sectors to help you take better decisions.</p>
+                <h2>Comprehensive Industry Solutions</h2>
+                <p class="pb-0 mb-0">Tailored expertise across industries to safeguard what matters most.</p>
             </div>
         </div>
     </div>
@@ -175,11 +175,11 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="industry-expertise-item text-center">
-                            <div class="expertise-item expertise-item-1"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-1"><img src="images/comprehensive-industry-solutions/FIRE.png" alt="" width="385" height="223" /></div>
                             <div class="expertise-item expertise-item-2"><div class="copy">Corporate</div></div>
-                            <div class="expertise-item expertise-item-3"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-3"><img src="images/comprehensive-industry-solutions/BURGLARY.png" alt="" width="385" height="223" /></div>
                             <div class="expertise-item expertise-item-4"><div class="copy">Fire</div></div>
-                            <div class="expertise-item expertise-item-5"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-5"><img src="images/comprehensive-industry-solutions/Corporate.png" alt="" width="385" height="223" /></div>
                             <div class="expertise-item expertise-item-6"><div class="copy">Burglary</div></div>
                         </div>
                     </div>
@@ -189,11 +189,11 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="industry-expertise-item text-center">
-                            <div class="expertise-item expertise-item-1"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-1"><img src="images/comprehensive-industry-solutions/Vehical.png" alt="" width="385" height="223"  /></div>
                             <div class="expertise-item expertise-item-2"><div class="copy">Health</div></div>
-                            <div class="expertise-item expertise-item-3"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-3"><img src="images/comprehensive-industry-solutions/Liability.png" alt="" width="385" height="223"  /></div>
                             <div class="expertise-item expertise-item-4"><div class="copy">Vehical</div></div>
-                            <div class="expertise-item expertise-item-5"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-5"><img src="images/comprehensive-industry-solutions/health.png" alt="" width="385" height="223"  /></div>
                             <div class="expertise-item expertise-item-6"><div class="copy">Liability</div></div>
                         </div>
                     </div>
@@ -203,11 +203,11 @@
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="industry-expertise-item text-center">
-                            <div class="expertise-item expertise-item-1"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-1"><img src="images/comprehensive-industry-solutions/GENERAL.png" alt="" width="385" height="223"  /></div>
                             <div class="expertise-item expertise-item-2"><div class="copy">Marine</div></div>
-                            <div class="expertise-item expertise-item-3"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-3"><img src="images/comprehensive-industry-solutions/Marine.png" alt="" width="385" height="223"  /></div>
                             <div class="expertise-item expertise-item-4"><div class="copy">General</div></div>
-                            <div class="expertise-item expertise-item-5"><img src="images/corporate.png" alt="" width="" height="" /></div>
+                            <div class="expertise-item expertise-item-5"><img src="images/comprehensive-industry-solutions/House-Breaking.png" alt="" width="385" height="223"  /></div>
                             <div class="expertise-item expertise-item-6"><div class="copy">House Breaking</div></div>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <h2>Testimonials</h2>
-                <p class="pb-0 mb-0">Discover valuable insights shaping the future of your Industry.</p>
+                <p class="pb-0 mb-0">Our Clients Speak for Us.</p>
             </div>
         </div>
     </div>
@@ -265,7 +265,7 @@
                                                 <label for="" class="form-label">Name</label>
                                                 <div class="img-input-group">
                                                     <input type="text" class="form-control" id="">
-                                                    <span><img src="images/name-icon.svg" alt="" width="" height="" /></span>
+                                                    <span><img src="images/name-icon.svg" alt="" width="23" height="29" /></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -274,7 +274,7 @@
                                                 <label for="" class="form-label">Email </label>
                                                 <div class="img-input-group">
                                                     <input type="email" class="form-control" id="" >
-                                                    <span><img src="images/email-icon.svg" alt="" width="" height="" /></span>
+                                                    <span><img src="images/email-icon.svg" alt="" width="23" height="29" /></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -283,7 +283,7 @@
                                                 <label for="" class="form-label">Phone Number</label>
                                                 <div class="img-input-group">
                                                     <input type="text" class="form-control" id="" >
-                                                    <span><img src="images/mobile-icon.svg" alt="" width="" height="" /></span>
+                                                    <span><img src="images/mobile-icon.svg" alt="" width="23" height="29" /></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -292,7 +292,7 @@
                                                 <label for="" class="form-label">Company</label>
                                                 <div class="img-input-group">
                                                     <input type="text" class="form-control" id="" >
-                                                    <span><img src="images/company-icon.svg" alt="" width="" height="" /></span>
+                                                    <span><img src="images/company-icon.svg" alt="" width="23" height="29" /></span>
                                                 </div>                                                
                                             </div>
                                         </div>

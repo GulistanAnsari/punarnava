@@ -4,8 +4,8 @@
 <!-- inner banner start -->
  <section class="inner-banner p-0">
     <picture>
-        <source media="(max-width:767px)" srcset="https://placehold.jp/400x250.png" />
-        <img src="images/banner/about-us-banner.jpg" alt="" width="" height="" />
+        <source media="(max-width:767px)" srcset="images/banner/about-mobile.png" />
+        <img src="images/banner/about-desktop.png" alt="" width="1440" height="250" />
     </picture>
     <h2 class="text">About Us</h2>
  </section>

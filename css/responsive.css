@@ -574,7 +574,12 @@
     .heading-bg {
         margin-top:0;
     }
-
+    .testimonials {
+        padding: 0;
+    }
+    .testimonials:before{
+        content: unset;
+    }
     .testimonials-sec .swiper-pagination{display: none;}
 
     .testimonials-slider {

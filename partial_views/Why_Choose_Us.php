@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-sm-3 col-6">
                 <div class="choose-item">
-                    <img src="images/personalized-policies.svg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/personalized-policies.svg" class="img-fluid" alt="" width="44" height="44" />
                     <p><b>Personalized Policies</b></p>
                     <p>Tailored portfolios to meet your unique financial goals.</p>
                     <a href="javascript:;">Learn More</a>
@@ -16,7 +16,7 @@
             </div>
             <div class="col-sm-3 col-6">
                 <div class="choose-item">
-                    <img src="images/diversification.svg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/diversification.svg" class="img-fluid" alt="" width="44" height="44" />
                     <p><b>Diversification</b></p>
                     <p>Minimized risks with a balanced investment mix.</p>
                     <a href="javascript:;">Discover More</a>
@@ -24,7 +24,7 @@
             </div>
             <div class="col-sm-3 col-6">
                 <div class="choose-item">
-                    <img src="images/expert-oversight.svg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/expert-oversight.svg" class="img-fluid" alt="" width="44" height="44"  />
                     <p><b>Expert Oversight</b></p>
                     <p>Minimized risks with a balanced investment mix.</p>
                     <a href="javascript:;">Get Assistance</a>
@@ -32,7 +32,7 @@
             </div>
             <div class="col-sm-3 col-6">
                 <div class="choose-item">
-                    <img src="images/market-expertise.svg" class="img-fluid" alt="" width="" height="" />
+                    <img src="images/market-expertise.svg" class="img-fluid" alt="" width="44" height="44"  />
                     <p><b>Market Expertise</b></p>
                     <p>Backed by years of proven experience.</p>
                     <a href="javascript:;">Claim Now</a>

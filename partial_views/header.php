@@ -26,7 +26,7 @@
         <div class="container">
             <div class="row">
                 <nav class="navbar navbar-expand-lg navbar-light p-0">
-                    <a class="navbar-brand" href="index.php"><img src="images/logo.png" width="" height="" alt=""></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/logo.svg" width="116" height="53" alt=""></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <!-- <span class="navbar-toggler-icon"></span> -->
                     <div class="burger">

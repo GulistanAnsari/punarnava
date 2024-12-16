@@ -4,9 +4,9 @@
 <!-- inner banner start -->
  <section class="inner-banner p-0">
    <picture>
-      <source media="(max-width:767px)" srcset="https://placehold.jp/400x250.png" />
-      <img src="images/banner/blog-banner.jpg" alt="" width="" height="" />
-   </picture>
+      <source media="(max-width:767px)" srcset="images/banner/blog-mobile.png" />
+      <img src="images/banner/blog-desktop.png" alt="" width="1440" height="250" />
+    </picture>
     <h2 class="text">Blog</h2>
  </section>
 <!-- inner banner end -->
@@ -20,7 +20,7 @@
        <div class="row align-items-center mt-4">
          <div class="col-sm-6 blue-vertical-left position-relative">
             <div class="about-sec position-relative">
-               <img src="images/about.png" class="img-fluid img-animation" alt="" width="" height="" />
+               <img src="images/blog/safeguard-your-future.png" class="img-fluid img-animation" alt="" width="" height="" />
                <div class="blue-bg"></div>
             </div>
          </div>
@@ -59,7 +59,7 @@
                        </div>
                        <div class="col-sm-6 ">
                            <div class="about-sec position-relative">
-                              <img src="images/about.png" class="img-fluid img-animation" alt="" width="" height="" />
+                              <img src="images/blog/comprehensive-insurance-services.png" class="img-fluid img-animation" alt="" width="" height="" />
                               <div class="blue-bg"></div>
                            </div>
                      </div>
@@ -75,7 +75,7 @@
                         </div>
                         <div class="col-sm-6 ">
                             <div class="about-sec position-relative">
-                               <img src="images/about.png" class="img-fluid img-animation" alt="" width="" height="" />
+                              <img src="images/blog/comprehensive-insurance-services.png" class="img-fluid img-animation" alt="" width="" height="" />
                                <div class="blue-bg"></div>
                             </div>
                       </div>
