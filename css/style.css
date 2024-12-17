@@ -1127,7 +1127,7 @@ footer .input-group .input-group-text {
     color: var(--white-color);
 }
 .value .value-card:hover{
-    background: var(--green-bg);
+    background: rgb(133 239 172 / 0.9);
 }
 .value .value-card:hover h3,
 .value .value-card:hover p{
